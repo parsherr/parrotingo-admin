@@ -15,9 +15,16 @@ export default async function DashboardPage() {
         <div className="min-h-screen bg-gray-50/50">
             <header className="sticky top-0 z-10 border-b bg-white/80 backdrop-blur-md">
                 <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center gap-2">
-                        <div className="h-8 w-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold">P</div>
-                        <h1 className="text-xl font-bold text-gray-900">Parrotingo Admin</h1>
+                    <div className="flex items-center gap-6">
+                        <div className="flex items-center gap-2">
+                            <div className="h-8 w-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold">P</div>
+                            <h1 className="text-xl font-bold text-gray-900">Parrotingo Admin</h1>
+                        </div>
+                        <nav className="hidden md:flex items-center gap-4">
+                            <a href="/docs" className="text-sm font-medium text-gray-500 hover:text-indigo-600 transition-colors">
+                                API Dokümanları
+                            </a>
+                        </nav>
                     </div>
                     <div className="flex items-center gap-4">
                         <span className="text-sm text-gray-500 hidden sm:inline-block">Hoş geldiniz, Admin</span>

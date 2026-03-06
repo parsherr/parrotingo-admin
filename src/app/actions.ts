@@ -2,7 +2,7 @@
 
 import { getWords, updateWords } from "@/lib/github";
 import { Word } from "@/types";
-import { v4 as uuidv4 } from "uuid";
+import { nanoid } from "nanoid";
 import { revalidatePath } from "next/cache";
 import { login, logout, isAuthenticated } from "@/lib/auth";
 import { redirect } from "next/navigation";
@@ -16,7 +16,7 @@ export async function createWordAction(wordData: Omit<Word, "id">) {
     const { words, sha } = await getWords();
     const newWord: Word = {
         ...wordData,
-        id: uuidv4(),
+        id: nanoid(10),
     };
 
     const updatedWords = [...words, newWord];
