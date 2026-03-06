@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function GET(
     request: Request,
-    { params }: { params: { word: string } }
+    { params }: { params: Promise<{ word: string }> }
 ) {
     try {
         const { word } = await params;
