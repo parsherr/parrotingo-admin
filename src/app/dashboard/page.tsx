@@ -1,8 +1,14 @@
 import { fetchWordsAction } from "@/app/actions";
 import WordList from "@/components/WordList";
 import { logoutAction } from "@/app/actions";
+import { isAuthenticated } from "@/lib/auth";
+import { redirect } from "next/navigation";
 
 export default async function DashboardPage() {
+    if (!(await isAuthenticated())) {
+        redirect("/login");
+    }
+
     const words = await fetchWordsAction();
 
     return (

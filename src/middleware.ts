@@ -2,14 +2,22 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
+    const { pathname } = request.nextUrl;
     const authCookie = request.cookies.get("admin_auth");
     const isAuthenticated = authCookie?.value === "authenticated";
 
-    if (request.nextUrl.pathname.startsWith("/dashboard") && !isAuthenticated) {
+    // Handle root path
+    if (pathname === "/") {
+        return NextResponse.redirect(new URL("/dashboard", request.url));
+    }
+
+    // Protect dashboard routes
+    if (pathname.startsWith("/dashboard") && !isAuthenticated) {
         return NextResponse.redirect(new URL("/login", request.url));
     }
 
-    if (request.nextUrl.pathname === "/login" && isAuthenticated) {
+    // Redirect authenticated users away from login page
+    if (pathname === "/login" && isAuthenticated) {
         return NextResponse.redirect(new URL("/dashboard", request.url));
     }
 
@@ -17,5 +25,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-    matcher: ["/dashboard/:path*", "/login"],
+    matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
 };
