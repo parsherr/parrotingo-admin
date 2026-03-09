@@ -1,0 +1,13 @@
+[
+  {
+    "type": "gap-fill",
+    "sentence": "aaa [WORD] aaa",
+    "correctWord": "devote",
+    "wrongWords": [
+      "abandon",
+      "abrupt",
+      "collapse"
+    ],
+    "id": "7KDwH9AciZ"
+  }
+]
