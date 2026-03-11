@@ -1,49 +1,34 @@
-import { Octokit } from "@octokit/rest";
-import { Question } from "@/types/questions";
+import { getFileData, updateFileData } from "./storage";
+import { Question, WordQuestionsData, UnitQuestionsData } from "@/types/questions";
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_REPO = process.env.GITHUB_REPO;
-const GITHUB_OWNER = process.env.GITHUB_OWNER;
-const DATA_PATH = "data/questions.json";
+const WORD_QUESTIONS_PATH = "data/word_questions.json";
+const UNIT_QUESTIONS_PATH = "data/unit_questions.json";
 
-const octokit = new Octokit({
-    auth: GITHUB_TOKEN,
-});
-
-export async function getQuestions(): Promise<{ questions: Question[]; sha: string }> {
-    try {
-        const { data }: any = await octokit.repos.getContent({
-            owner: GITHUB_OWNER!,
-            repo: GITHUB_REPO!,
-            path: DATA_PATH,
-        });
-
-        const content = Buffer.from(data.content, "base64").toString("utf-8");
-        return {
-            questions: JSON.parse(content),
-            sha: data.sha,
-        };
-    } catch (error: any) {
-        if (error.status === 404) {
-            // File doesn't exist yet, return empty list
-            return { questions: [], sha: "" };
-        }
-        throw error;
-    }
+// Word-specific questions
+export async function getWordQuestions(): Promise<{ data: WordQuestionsData; sha: string }> {
+    const { data, sha } = await getFileData<WordQuestionsData>(WORD_QUESTIONS_PATH);
+    return { data: (data && typeof data === 'object' && !Array.isArray(data)) ? data : {}, sha };
 }
 
-export async function updateQuestions(questions: Question[], sha?: string): Promise<string> {
-    const content = JSON.stringify(questions, null, 2);
-    const base64Content = Buffer.from(content).toString("base64");
+export async function updateWordQuestions(data: WordQuestionsData, sha?: string): Promise<string> {
+    return updateFileData(WORD_QUESTIONS_PATH, data, sha, "Update word questions");
+}
 
-    const response = await octokit.repos.createOrUpdateFileContents({
-        owner: GITHUB_OWNER!,
-        repo: GITHUB_REPO!,
-        path: DATA_PATH,
-        message: "Update quiz questions",
-        content: base64Content,
-        sha: sha,
-    });
+// Unit-specific evaluation questions
+export async function getUnitQuestions(): Promise<{ data: UnitQuestionsData; sha: string }> {
+    const { data, sha } = await getFileData<UnitQuestionsData>(UNIT_QUESTIONS_PATH);
+    return { data: (data && typeof data === 'object' && !Array.isArray(data)) ? data : {}, sha };
+}
 
-    return response.data.content?.sha || "";
+export async function updateUnitQuestions(data: UnitQuestionsData, sha?: string): Promise<string> {
+    return updateFileData(UNIT_QUESTIONS_PATH, data, sha, "Update unit evaluation questions");
+}
+
+// Legacy helper (if still needed anywhere, can be mapped to one of the above or removed)
+export async function getQuestions() {
+    // For now, let's just return an empty array to avoid breaking things immediately
+    return { questions: [], sha: "" };
+}
+export async function updateQuestions(questions: any[], sha?: string) {
+    return "";
 }

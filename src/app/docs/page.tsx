@@ -1,110 +1,156 @@
 import Link from "next/link";
+import { ArrowLeft, Book, Code, Globe, Lock, Zap } from "lucide-react";
 
 export default function DocsPage() {
     return (
-        <div className="min-h-screen bg-gray-50/50">
-            <header className="sticky top-0 z-10 border-b bg-white/80 backdrop-blur-md">
-                <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center gap-2">
-                        <Link href="/dashboard" className="flex items-center gap-2">
-                            <div className="h-8 w-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold">P</div>
-                            <h1 className="text-xl font-bold text-gray-900">Parrotingo API Docs</h1>
+        <div className="min-h-screen bg-white text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
+            {/* Header */}
+            <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-xl">
+                <div className="container mx-auto flex h-20 items-center justify-between px-6">
+                    <div className="flex items-center gap-4">
+                        <Link href="/dashboard" className="flex items-center gap-3 group">
+                            <div className="h-10 w-10 rounded-2xl bg-indigo-600 flex items-center justify-center text-white font-black shadow-lg shadow-indigo-200 group-hover:scale-110 transition-transform">P</div>
+                            <div>
+                                <h1 className="text-xl font-black tracking-tight">Parrotingo API</h1>
+                                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Documentation v2.0</p>
+                            </div>
                         </Link>
                     </div>
-                    <div>
-                        <Link
-                            href="/dashboard"
-                            className="text-sm font-medium text-indigo-600 hover:text-indigo-500 transition-colors"
-                        >
-                            ← Dashboard'a Dön
-                        </Link>
-                    </div>
+                    <Link
+                        href="/dashboard"
+                        className="flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors"
+                    >
+                        <ArrowLeft className="h-4 w-4" />
+                        Dashboard'a Dön
+                    </Link>
                 </div>
             </header>
 
-            <main className="container mx-auto py-12 px-4 sm:px-6 lg:px-8 max-w-4xl">
-                <div className="space-y-12">
-                    {/* Giriş */}
-                    <div className="space-y-4">
-                        <h2 className="text-3xl font-bold text-gray-900">API Kullanımı</h2>
-                        <p className="text-lg text-gray-600">
-                            Parrotingo sözlük verilerine dış uygulamalardan erişmek için aşağıdaki uç noktaları (endpoints) kullanabilirsiniz.
-                            Veriler gerçek zamanlı olarak GitHub üzerindeki JSON dosyasından çekilmektedir.
-                        </p>
-                    </div>
+            <main className="container mx-auto py-16 px-6 max-w-5xl">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
 
-                    {/* Temel URL */}
-                    <div className="rounded-xl border bg-white p-6 shadow-sm">
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">Temel URL</h3>
-                        <code className="block bg-gray-100 p-3 rounded-lg text-indigo-700 font-mono text-sm">
-                            {process.env.NEXT_PUBLIC_APP_URL || 'https://parrotingo-admin.vercel.app'}/api
-                        </code>
-                    </div>
-
-                    {/* Endpoint 1: Tüm Kelimeler */}
-                    <div className="space-y-4">
-                        <div className="flex items-center gap-3">
-                            <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full">GET</span>
-                            <h3 className="text-xl font-bold text-gray-900">/words</h3>
+                    {/* Sidebar Nav */}
+                    <aside className="lg:col-span-3 space-y-8 hidden lg:block">
+                        <div className="space-y-4">
+                            <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest">Başlangıç</h4>
+                            <nav className="flex flex-col gap-2">
+                                <a href="#overview" className="text-sm font-bold text-indigo-600">Genel Bakış</a>
+                                <a href="#auth" className="text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors">Güvenlik</a>
+                            </nav>
                         </div>
-                        <p className="text-gray-600">Sözlükteki tüm kelimeleri ve detaylarını içeren bir liste döner.</p>
-
-                        <div className="bg-slate-900 rounded-xl p-6 text-slate-100 font-mono text-sm overflow-x-auto">
-                            <h4 className="text-slate-400 mb-4 font-sans uppercase tracking-wider text-xs">Örnek Yanıt:</h4>
-                            <pre>{`[`}
-                                {`  {`}
-                                {`    "id": "550e8400-e29b-41d4-a716-446655440000",`}
-                                {`    "word": "Apple",`}
-                                {`    "translation": "Elma",`}
-                                {`    "example": "I like to eat apples.",`}
-                                {`    "category": "Fruit"`}
-                                {`  },`}
-                                {`  ...`}
-                                {`]`}</pre>
+                        <div className="space-y-4">
+                            <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest">Endpoints</h4>
+                            <nav className="flex flex-col gap-2">
+                                <a href="#curriculum" className="text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors">Tüm Müfredat</a>
+                                <a href="#units" className="text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors">Üniteler</a>
+                                <a href="#words" className="text-sm font-bold text-slate-500 hover:text-indigo-600 transition-colors">Kelimeler</a>
+                            </nav>
                         </div>
-                    </div>
+                    </aside>
 
-                    {/* Endpoint 2: Tek Kelime */}
-                    <div className="space-y-4 pt-4">
-                        <div className="flex items-center gap-3">
-                            <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full">GET</span>
-                            <h3 className="text-xl font-bold text-gray-900">/words/[word]</h3>
-                        </div>
-                        <p className="text-gray-600">Belirli bir kelimenin detaylarını getirir. Kelime arama büyük/küçük harf duyarsızdır.</p>
+                    {/* Content */}
+                    <div className="lg:col-span-9 space-y-24">
 
-                        <div className="bg-gray-100 p-4 rounded-lg border-l-4 border-indigo-500">
-                            <p className="text-sm text-gray-700 font-mono">
-                                <span className="text-gray-500">Örnek İstek:</span> /api/words/apple
+                        {/* Section: Overview */}
+                        <section id="overview" className="space-y-6">
+                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 text-indigo-600 text-xs font-black uppercase tracking-widest">
+                                <Globe className="h-3 w-3" />
+                                Public API
+                            </div>
+                            <h2 className="text-5xl font-black tracking-tighter text-slate-900">Müfredat Veri Erişimi</h2>
+                            <p className="text-xl text-slate-500 leading-relaxed">
+                                Parrotingo Admin, hiyerarşik eğitim yapısını (Ünite {'>'} Kelime {'>'} Soru) JSON tabanlı bir API üzerinden sunar.
+                                Bu veriler, uygulama senkronizasyonu için optimize edilmiştir.
                             </p>
-                        </div>
 
-                        <div className="bg-slate-900 rounded-xl p-6 text-slate-100 font-mono text-sm overflow-x-auto">
-                            <h4 className="text-slate-400 mb-4 font-sans uppercase tracking-wider text-xs">Örnek Yanıt:</h4>
-                            <pre>{`{`}
-                                {`  "id": "550e8400-e29b-41d4-a716-446655440000",`}
-                                {`  "word": "Apple",`}
-                                {`  "translation": "Elma",`}
-                                {`  "example": "I like to eat apples.",`}
-                                {`  "category": "Fruit"`}
-                                {`}`}</pre>
-                        </div>
-                    </div>
+                            <div className="p-8 rounded-3xl bg-slate-900 text-slate-300 space-y-4 shadow-2xl shadow-slate-200">
+                                <div className="flex items-center justify-between">
+                                    <h4 className="text-xs font-black uppercase tracking-widest text-slate-500">Base URL</h4>
+                                    <Zap className="h-4 w-4 text-amber-400" />
+                                </div>
+                                <code className="text-lg font-mono text-indigo-400 font-bold block">
+                                    /api
+                                </code>
+                            </div>
+                        </section>
 
-                    {/* Önemli Not */}
-                    <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 flex gap-4">
-                        <div className="text-amber-500">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" /></svg>
-                        </div>
-                        <div>
-                            <h4 className="font-bold text-amber-900">Önemli Not</h4>
-                            <p className="text-amber-800 text-sm mt-1">
-                                API uç noktaları şu anda herkese açıktır (Public). Dashboard şifresinden bağımsız olarak çalışırlar.
-                                Mobil uygulama veya frontend sitenizden doğrudan bu URL'lere istek atabilirsiniz.
-                            </p>
-                        </div>
+                        {/* Section: Curriculum (Sync) */}
+                        <section id="curriculum" className="space-y-8">
+                            <div className="space-y-4">
+                                <div className="flex items-center gap-4">
+                                    <span className="px-3 py-1 bg-emerald-500 text-white text-[10px] font-black rounded-lg uppercase tracking-wider shadow-lg shadow-emerald-100">GET</span>
+                                    <h3 className="text-3xl font-black text-slate-900">/curriculum</h3>
+                                </div>
+                                <p className="text-slate-500">
+                                    Uygulamanın çalışması için gerekli olan tüm verileri (Üniteler, Kelimeler, Kelime Soruları ve Ünite Sınavları) tek bir istekte döner.
+                                    İdeal senkronizasyon endpoint'idir.
+                                </p>
+                            </div>
+
+                            <div className="rounded-3xl border border-slate-100 bg-slate-50 p-6 overflow-hidden">
+                                <div className="flex items-center gap-2 mb-4 text-xs font-bold text-slate-400">
+                                    <Code className="h-3 w-3" />
+                                    Response Structure
+                                </div>
+                                <pre className="text-sm font-mono text-slate-700 bg-white p-6 rounded-2xl border border-slate-200 overflow-x-auto">
+                                    {`{
+  "units": [...],           // Ünite listesi (Word ID'leri ile)
+  "words": [...],           // Tüm kelime tanımları
+  "wordQuestions": {        // Kelime ID'sine göre gruplanmış sorular
+     "word_id_1": [...],
+     "word_id_2": [...]
+  },
+  "unitQuestions": {        // Ünite ID'sine göre gruplanmış sınavlar
+     "unit_id_1": [...]
+  }
+}`}
+                                </pre>
+                            </div>
+                        </section>
+
+                        {/* Section: Units */}
+                        <section id="units" className="space-y-8">
+                            <div className="space-y-4">
+                                <div className="flex items-center gap-4">
+                                    <span className="px-3 py-1 bg-blue-500 text-white text-[10px] font-black rounded-lg uppercase tracking-wider shadow-lg shadow-blue-100">GET</span>
+                                    <h3 className="text-3xl font-black text-slate-900">/units</h3>
+                                </div>
+                                <p className="text-slate-500">Sadece ünite listesini ve o ünitelere atanmış Kelime ID'lerini getirir.</p>
+                            </div>
+                        </section>
+
+                        {/* Section: Security */}
+                        <section id="auth" className="p-10 rounded-[2.5rem] bg-indigo-600 text-white space-y-6 relative overflow-hidden shadow-2xl shadow-indigo-200">
+                            <Lock className="absolute -right-8 -bottom-8 h-48 w-48 text-indigo-500 opacity-50" />
+                            <div className="relative space-y-4">
+                                <h3 className="text-3xl font-black">Güvenlik ve Performans</h3>
+                                <p className="text-indigo-100 text-lg max-w-2xl">
+                                    API uç noktaları şu anda **herkese açıktır**. Veriler statik JSON dosyalarından sunulduğu için yüksek performanslıdır.
+                                    GitHub hızı limitlerine (Rate Limit) takılmamak için verileri istemci tarafında (Local Storage/SQLite) önbelleğe almanız önerilir.
+                                </p>
+                                <div className="flex gap-4 pt-4">
+                                    <div className="bg-indigo-700/50 px-4 py-3 rounded-2xl border border-indigo-400/30 flex items-center gap-3">
+                                        < Zap className="h-5 w-5 text-amber-300" />
+                                        <div className="text-xs font-bold">Latency: ~150ms</div>
+                                    </div>
+                                    <div className="bg-indigo-700/50 px-4 py-3 rounded-2xl border border-indigo-400/30 flex items-center gap-3">
+                                        < Book className="h-5 w-5 text-indigo-300" />
+                                        <div className="text-xs font-bold">Format: JSON v2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
                     </div>
                 </div>
             </main>
+
+            {/* Footer */}
+            <footer className="border-t border-slate-100 py-12 bg-slate-50/50">
+                <div className="container mx-auto px-6 text-center">
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-widest">Parrotingo Educational Platform</p>
+                </div>
+            </footer>
         </div>
     );
 }

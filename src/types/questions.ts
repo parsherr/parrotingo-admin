@@ -30,6 +30,6 @@ export interface MultipleGapQuestion {
 
 export type Question = GapFillQuestion | WordMeaningQuestion | MultipleGapQuestion;
 
-export interface QuestionsData {
-    questions: Question[];
-}
+// These represent how data is stored in different JSON files
+export type WordQuestionsData = Record<string, Question[]>; // Key: wordId
+export type UnitQuestionsData = Record<string, Question[]>; // Key: unitId
