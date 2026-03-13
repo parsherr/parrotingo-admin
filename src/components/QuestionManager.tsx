@@ -8,7 +8,8 @@ import {
     saveWordQuestionAction,
     deleteWordQuestionAction,
     fetchUnitQuestionsAction,
-    saveUnitQuestionAction
+    saveUnitQuestionAction,
+    deleteUnitQuestionAction
 } from "@/app/actions";
 import {
     Plus, Pencil, Trash2, Search, X, Brain, Layers, MousePointer2,
@@ -62,8 +63,7 @@ export default function QuestionManager({ words, units }: QuestionManagerProps) 
         if (viewMode === "words") {
             await deleteWordQuestionAction(selectedTarget.id, questionId);
         } else {
-            // Unit evaluation deletion (simplified for now, can implement same as word)
-            // await deleteUnitQuestionAction(...)
+            await deleteUnitQuestionAction(selectedTarget.id, questionId);
         }
         await loadQuestions(selectedTarget.id);
     };
@@ -165,8 +165,8 @@ export default function QuestionManager({ words, units }: QuestionManagerProps) 
                         <div key={q.id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 flex flex-col group relative">
                             <div className="flex justify-between items-start mb-4">
                                 <span className={`px-2.5 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider ${q.type === 'gap-fill' ? 'bg-blue-50 text-blue-600' :
-                                        q.type === 'word-meaning' ? 'bg-purple-50 text-purple-600' :
-                                            'bg-orange-50 text-orange-600'
+                                    q.type === 'word-meaning' ? 'bg-purple-50 text-purple-600' :
+                                        'bg-orange-50 text-orange-600'
                                     }`}>
                                     {q.type === 'gap-fill' ? 'Boşluk Doldurma' : q.type === 'word-meaning' ? 'Anlam' : 'Metin'}
                                 </span>

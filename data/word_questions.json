@@ -1,0 +1,29 @@
+{
+    "WX0A4nlOo0": [
+        {
+            "id": "7KDwH9AciZ",
+            "type": "gap-fill",
+            "sentence": "She decided to [WORD] her life to helping others.",
+            "correctWord": "devote",
+            "wrongWords": [
+                "abandon",
+                "abrupt",
+                "collapse"
+            ]
+        }
+    ],
+    "h8g7LwldVI": [
+        {
+            "id": "8LwldVIX",
+            "type": "word-meaning",
+            "word": "abandon",
+            "correctTranslation": "terk etmek",
+            "correctDefinition": "To leave someone or something permanently.",
+            "wrongChoices": [
+                "devam etmek",
+                "başlamak",
+                "bitirmek"
+            ]
+        }
+    ]
+}
