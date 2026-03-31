@@ -27,7 +27,7 @@
     },
     {
       "type": "multiple-gap",
-      "text": "The teacher           the class fiercely.",
+      "text": "The teacher [GAP1] the class fiercely.",
       "gaps": [
         {
           "id": "GAP1",
