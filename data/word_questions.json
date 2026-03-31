@@ -326,5 +326,19 @@
       ],
       "id": "YjIc1XcDnO"
     }
+  ],
+  "baJjana3wN": [
+    {
+      "type": "word-meaning",
+      "word": "destiny",
+      "correctTranslation": "kader",
+      "correctDefinition": "The belief that certain events are meant to happen and cannot be changed.",
+      "wrongChoices": [
+        "yalan",
+        "solmak",
+        "gücenmek"
+      ],
+      "id": "KYuCaRgvGc"
+    }
   ]
 }
