@@ -123,6 +123,21 @@
         "controversy"
       ],
       "id": "dtf9cbTvbR"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "We had requested a report on sickness [GAP1] for this year.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "absence",
+          "wrongWords": [
+            "desperately",
+            "abrupt"
+          ]
+        }
+      ],
+      "id": "0Av-SSwz2b"
     }
   ]
 }
