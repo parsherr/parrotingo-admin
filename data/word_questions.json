@@ -139,5 +139,19 @@
       ],
       "id": "0Av-SSwz2b"
     }
+  ],
+  "J2-_VKw4hN": [
+    {
+      "type": "word-meaning",
+      "word": "basis",
+      "correctTranslation": "temel,dayanak",
+      "correctDefinition": "The main reason, idea, or foundation that something is built on.",
+      "wrongChoices": [
+        "ani",
+        "terk etmek",
+        "güzel"
+      ],
+      "id": "g7OybyXwdW"
+    }
   ]
 }
