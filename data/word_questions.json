@@ -192,6 +192,17 @@
         "kolaylaştırmak"
       ],
       "id": "bF4Ygx--hQ"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "This year only one [WORD] is running for office.",
+      "correctWord": "candidate",
+      "wrongWords": [
+        "abandon",
+        "destiny",
+        "basis"
+      ],
+      "id": "XgW6-4TDmU"
     }
   ]
 }
