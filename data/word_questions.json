@@ -232,6 +232,17 @@
         "parçalanmak"
       ],
       "id": "A00ZHlPEwE"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "As soon as he gets home he [WORD] on the settee and watches football on TV.",
+      "correctWord": "collapse",
+      "wrongWords": [
+        "controversy",
+        "desperately",
+        "candidate"
+      ],
+      "id": "Z9en7GzOG8"
     }
   ]
 }
