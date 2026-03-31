@@ -272,6 +272,17 @@
         "collapse"
       ],
       "id": "1BsVIxwGya"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "There was a [WORD] about the location of the new school.",
+      "correctWord": "controversy",
+      "wrongWords": [
+        "abandon",
+        "abrupt",
+        "destiny"
+      ],
+      "id": "Re2mixmwkc"
     }
   ]
 }
