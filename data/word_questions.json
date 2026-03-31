@@ -243,6 +243,21 @@
         "candidate"
       ],
       "id": "Z9en7GzOG8"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "There was an inexplicable [GAP1] in gold prices.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "collapse",
+          "wrongWords": [
+            "devastate",
+            "praise"
+          ]
+        }
+      ],
+      "id": "Zlk6cpX9Wv"
     }
   ]
 }
