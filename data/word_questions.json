@@ -83,6 +83,21 @@
         "absence"
       ],
       "id": "zgIxat3ScU"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Our conversation came to an [GAP1] end.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "abrupt",
+          "wrongWords": [
+            "basis",
+            "devote"
+          ]
+        }
+      ],
+      "id": "nHNG2i4wIk"
     }
   ]
 }
