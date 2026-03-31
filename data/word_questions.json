@@ -24,6 +24,29 @@
         "bitirmek"
       ],
       "id": "8LwldVIX"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The teacher           the class fiercely.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "abandoned",
+          "wrongWords": [
+            "collapsed",
+            "devoted"
+          ]
+        },
+        {
+          "id": "GAP2",
+          "correctWord": "",
+          "wrongWords": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "id": "wzmFZon6Qm"
     }
   ],
   "7JKBde8lwA": [
