@@ -390,6 +390,21 @@
         "absence"
       ],
       "id": "lRXs55UetC"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "She [GAP1] wanted him to know the truth.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "desperately",
+          "wrongWords": [
+            "abruptly",
+            "basis"
+          ]
+        }
+      ],
+      "id": "TF4XsMHAju"
     }
   ]
 }
