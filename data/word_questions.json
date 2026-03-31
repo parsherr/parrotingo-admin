@@ -10,6 +10,18 @@
         "abrupt",
         "collapse"
       ]
+    },
+    {
+      "type": "word-meaning",
+      "word": "devote",
+      "correctTranslation": "adamak",
+      "correctDefinition": "To give most of your time, energy, or attention to something.",
+      "wrongChoices": [
+        "güvenmek",
+        "azimle ilerlemek",
+        "yalanlamak"
+      ],
+      "id": "VeAqcIM82t"
     }
   ],
   "h8g7LwldVI": [
