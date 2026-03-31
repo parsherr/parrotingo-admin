@@ -339,6 +339,17 @@
         "gücenmek"
       ],
       "id": "KYuCaRgvGc"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "He has absolute control over his [WORD].",
+      "correctWord": "destiny",
+      "wrongWords": [
+        "candidate",
+        "abandon",
+        "basis"
+      ],
+      "id": "UZVDwB5ppG"
     }
   ]
 }
