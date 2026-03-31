@@ -366,5 +366,19 @@
       ],
       "id": "7Zua-rK6Hd"
     }
+  ],
+  "0rN0LEkrFC": [
+    {
+      "type": "word-meaning",
+      "word": "desperately",
+      "correctTranslation": "umutsuzca,çaresizce",
+      "correctDefinition": "In a way that shows great need, urgency, or hopelessness.",
+      "wrongChoices": [
+        "hızlıca",
+        "kızarak,gücenerek",
+        "aniden"
+      ],
+      "id": "7n5W4wNbT3"
+    }
   ]
 }
