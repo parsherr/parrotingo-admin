@@ -112,6 +112,17 @@
         "düşünce yolu ile"
       ],
       "id": "mToCeZglzw"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "I must therefore ask you to forgive the Commission's [WORD].",
+      "correctWord": "absence",
+      "wrongWords": [
+        "abandon",
+        "destiny",
+        "controversy"
+      ],
+      "id": "dtf9cbTvbR"
     }
   ]
 }
