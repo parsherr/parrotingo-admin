@@ -47,6 +47,17 @@
         }
       ],
       "id": "wzmFZon6Qm"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "That is why we should [WORD] this system.",
+      "correctWord": "abandon",
+      "wrongWords": [
+        "abrupt",
+        "candidate",
+        "devote"
+      ],
+      "id": "URXoFUDWKh"
     }
   ],
   "7JKBde8lwA": [
