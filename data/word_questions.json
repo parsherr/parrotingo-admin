@@ -203,6 +203,21 @@
         "basis"
       ],
       "id": "XgW6-4TDmU"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "In the 1996 election most party branches were simply the [GAP1]'s kouenkai under a new label.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "candidate",
+          "wrongWords": [
+            "government",
+            "state"
+          ]
+        }
+      ],
+      "id": "fpKrYdSZzi"
     }
   ]
 }
