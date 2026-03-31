@@ -25,5 +25,19 @@
       ],
       "id": "8LwldVIX"
     }
+  ],
+  "7JKBde8lwA": [
+    {
+      "type": "word-meaning",
+      "word": "abrupt",
+      "correctTranslation": "ani",
+      "correctDefinition": "Sudden and unexpected, often in a way that seems rude or surprising.",
+      "wrongChoices": [
+        "hızlı",
+        "durağan",
+        "devasa"
+      ],
+      "id": "UEred7Mmhq"
+    }
   ]
 }
