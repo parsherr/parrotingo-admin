@@ -179,5 +179,19 @@
       ],
       "id": "MmSpIHEtGA"
     }
+  ],
+  "ZddJH34bOz": [
+    {
+      "type": "word-meaning",
+      "word": "candidate",
+      "correctTranslation": "aday",
+      "correctDefinition": "A person who applies for a job, position, or takes part in an election.",
+      "wrongChoices": [
+        "uyumlu",
+        "gösteriş düşkünü",
+        "kolaylaştırmak"
+      ],
+      "id": "bF4Ygx--hQ"
+    }
   ]
 }
