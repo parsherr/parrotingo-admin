@@ -350,6 +350,21 @@
         "basis"
       ],
       "id": "UZVDwB5ppG"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Let us make a supreme effort and, conscious of our duty, fulfill our [GAP1] on this earth.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "destiny",
+          "wrongWords": [
+            "collapse",
+            "abrupt"
+          ]
+        }
+      ],
+      "id": "7Zua-rK6Hd"
     }
   ]
 }
