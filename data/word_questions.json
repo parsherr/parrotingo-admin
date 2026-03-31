@@ -283,6 +283,21 @@
         "destiny"
       ],
       "id": "Re2mixmwkc"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "There was a [GAP1] about the location of the new school.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "controversy",
+          "wrongWords": [
+            "basis",
+            "absence"
+          ]
+        }
+      ],
+      "id": "YjIc1XcDnO"
     }
   ]
 }
