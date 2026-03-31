@@ -219,5 +219,19 @@
       ],
       "id": "fpKrYdSZzi"
     }
+  ],
+  "s0x4gkbIco": [
+    {
+      "type": "word-meaning",
+      "word": "collapse",
+      "correctTranslation": "çökmek",
+      "correctDefinition": "A sudden failure or breakdown of a system, organization, or structure.",
+      "wrongChoices": [
+        "hastalanmak",
+        "dökülmek",
+        "parçalanmak"
+      ],
+      "id": "A00ZHlPEwE"
+    }
   ]
 }
