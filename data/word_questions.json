@@ -163,6 +163,21 @@
         "destiny"
       ],
       "id": "j7g3qafLH5"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Second, that the Treaty provides only a limited [GAP1] in law.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "basis",
+          "wrongWords": [
+            "absence",
+            "abandon"
+          ]
+        }
+      ],
+      "id": "MmSpIHEtGA"
     }
   ]
 }
