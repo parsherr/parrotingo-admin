@@ -72,6 +72,17 @@
         "devasa"
       ],
       "id": "UEred7Mmhq"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The fourth demand would then have to be to avoid [WORD] changeovers between programming periods in future.",
+      "correctWord": "abrupt",
+      "wrongWords": [
+        "basis",
+        "desperately",
+        "absence"
+      ],
+      "id": "zgIxat3ScU"
     }
   ]
 }
