@@ -379,6 +379,17 @@
         "aniden"
       ],
       "id": "7n5W4wNbT3"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "It will, in any event, also create clarity, which is [WORD] needed.",
+      "correctWord": "desperately",
+      "wrongWords": [
+        "destiny",
+        "controversy",
+        "absence"
+      ],
+      "id": "lRXs55UetC"
     }
   ]
 }
