@@ -259,5 +259,19 @@
       ],
       "id": "Zlk6cpX9Wv"
     }
+  ],
+  "502kXMCV4y": [
+    {
+      "type": "word-meaning",
+      "word": "controversy",
+      "correctTranslation": "tartışma,ihtilah",
+      "correctDefinition": "A serious public disagreement or discussion about something.",
+      "wrongChoices": [
+        "abandon",
+        "abrupt",
+        "collapse"
+      ],
+      "id": "1BsVIxwGya"
+    }
   ]
 }
