@@ -152,6 +152,17 @@
         "güzel"
       ],
       "id": "g7OybyXwdW"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Surely therefore the Commission can go back to the Treaty of Rome and the [WORD] of the whole Community.",
+      "correctWord": "basis",
+      "wrongWords": [
+        "abandon",
+        "devote",
+        "destiny"
+      ],
+      "id": "j7g3qafLH5"
     }
   ]
 }
