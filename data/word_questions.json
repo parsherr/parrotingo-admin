@@ -22,6 +22,21 @@
         "yalanlamak"
       ],
       "id": "VeAqcIM82t"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The way in which he [GAP1] himself to his work is unequalled.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "devotes",
+          "wrongWords": [
+            "collapses",
+            "abandons"
+          ]
+        }
+      ],
+      "id": "HwPheCpRT8"
     }
   ],
   "h8g7LwldVI": [
