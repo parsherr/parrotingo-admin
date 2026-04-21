@@ -20,7 +20,7 @@ export default function WordList({ initialWords }: WordListProps) {
         w.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
         w.definition.toLowerCase().includes(searchTerm.toLowerCase()) ||
         w.definition_tr.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    ).sort((a, b) => a.word.localeCompare(b.word));
 
     const handleCreateOrUpdate = async (formData: FormData) => {
         const wordData = {

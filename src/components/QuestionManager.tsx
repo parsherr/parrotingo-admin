@@ -264,7 +264,7 @@ function GapFillForm({ onSave, initialData, words, targetWord }: any) {
             <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
                     <label className="text-sm font-bold text-gray-700">Doğru Cevap</label>
-                    <input value={correctWord} readOnly={!!targetWord} className="w-full rounded-xl bg-indigo-50 border-2 border-indigo-100 p-3 font-bold text-indigo-700" />
+                    <input value={correctWord} onChange={e => setCorrectWord(e.target.value)} readOnly={!!targetWord} className="w-full rounded-xl bg-indigo-50 border-2 border-indigo-100 p-3 font-bold text-indigo-700" />
                 </div>
                 <div className="flex items-end">
                     <button onClick={generateDistractors} className="w-full py-3 rounded-xl bg-gray-100 hover:bg-gray-200 font-bold flex items-center justify-center gap-2"><Wand2 className="h-4 w-4" /> Otomatik Doldur</button>
@@ -305,7 +305,16 @@ function WordMeaningForm({ onSave, initialData, words, targetWord }: any) {
         <div className="space-y-6">
             <div className="p-4 bg-indigo-50 border-2 border-indigo-100 rounded-2xl">
                 <span className="text-[10px] uppercase font-black tracking-widest text-indigo-400">Ana Kelime</span>
-                <h4 className="text-xl font-black text-indigo-900">{word}</h4>
+                {targetWord ? (
+                    <h4 className="text-xl font-black text-indigo-900">{word}</h4>
+                ) : (
+                    <input 
+                        value={word} 
+                        onChange={e => setWord(e.target.value)} 
+                        placeholder="Kelimeyi girin"
+                        className="w-full mt-1 p-2 rounded-xl border border-indigo-200 bg-white font-bold text-indigo-900 outline-none focus:border-indigo-400"
+                    />
+                )}
             </div>
             <div className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
