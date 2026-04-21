@@ -12,6 +12,22 @@ export async function GET() {
             getUnitQuestions()
         ]);
 
+        // ---- NEW LOGIC: Alphabetical ordering of word IDs per unit ----
+        // Build a map for quick lookup of word text by id
+        const wordMap = new Map<string, string>();
+        words.forEach((w) => wordMap.set(w.id, w.word));
+        // For each unit, sort its wordIds based on the actual word string (case‑insensitive)
+        units.forEach((unit) => {
+            if (Array.isArray(unit.wordIds)) {
+                unit.wordIds.sort((a, b) => {
+                    const wa = wordMap.get(a) ?? "";
+                    const wb = wordMap.get(b) ?? "";
+                    return wa.localeCompare(wb, undefined, { sensitivity: "base" });
+                });
+            }
+        });
+        // -----------------------------------------------------------
+
         return NextResponse.json({
             units,
             words,

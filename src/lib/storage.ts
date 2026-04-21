@@ -58,15 +58,17 @@ export async function getFileData<T>(filePath: string): Promise<{ data: T; sha: 
 export async function updateFileData(filePath: string, content: any, sha?: string, message: string = "Update data"): Promise<string> {
     const jsonContent = JSON.stringify(content, null, 2);
 
-    // 1. Update Local Filesystem
-    try {
-        const fullPath = path.join(process.cwd(), filePath);
-        await fs.mkdir(path.dirname(fullPath), { recursive: true });
-        await fs.writeFile(fullPath, jsonContent, "utf-8");
-        console.log(`Successfully updated local file: ${filePath}`);
-    } catch (error) {
-        console.error(`Error updating local file ${filePath}:`, error);
-        // We continue to update GitHub even if local fails (or vice versa depending on policy)
+    // 1. Update Local Filesystem (dev only)
+    if (IS_DEV) {
+        try {
+            const fullPath = path.join(process.cwd(), filePath);
+            await fs.mkdir(path.dirname(fullPath), { recursive: true });
+            await fs.writeFile(fullPath, jsonContent, "utf-8");
+            console.log(`Successfully updated local file (dev): ${filePath}`);
+        } catch (error) {
+            console.error(`Error updating local file (dev) ${filePath}:`, error);
+            // Continue to update GitHub even if local fails
+        }
     }
 
     // 2. Update GitHub
