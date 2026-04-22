@@ -1314,5 +1314,18 @@
       ],
       "id": "kxqAXjo2tQ"
     }
+  ],
+  "gavZT9ow0B": [
+    {
+      "type": "gap-fill",
+      "sentence": "The pain was barely [WORD] after the doctor administered a mild but effective treatment.",
+      "correctWord": "bearable",
+      "wrongWords": [
+        "commit",
+        "confess",
+        "desperately"
+      ],
+      "id": "4vQujZv6EN"
+    }
   ]
 }
