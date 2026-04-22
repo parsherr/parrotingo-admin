@@ -573,6 +573,21 @@
         }
       ],
       "id": "C6Em8-Btf1"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "One of the most significant **[GAP1]**s of learning a second language is the ability to communicate with more people,\nwhich opens up many new career opportunities and allows you to experience different cultures from a unique perspective,\nmaking you a more knowledgeable and culturally aware individual in today's increasingly globalized society.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "benefit",
+          "wrongWords": [
+            "harmful",
+            "firmly"
+          ]
+        }
+      ],
+      "id": "DlcCZ3Q7V0"
     }
   ]
 }
