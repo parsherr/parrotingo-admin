@@ -1514,6 +1514,21 @@
         "decline"
       ],
       "id": "DivqPsdFJG"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "He did not intend to [GAP1] anyone, but his unclear explanation led to misunderstanding.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "deceive",
+          "wrongWords": [
+            "crack",
+            "avoid"
+          ]
+        }
+      ],
+      "id": "O66Rv3NqZk"
     }
   ]
 }
