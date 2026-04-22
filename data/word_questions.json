@@ -834,5 +834,18 @@
       ],
       "id": "rFuTKtQJh-"
     }
+  ],
+  "d8RDOPnb7Z": [
+    {
+      "type": "gap-fill",
+      "sentence": "Long-term use of certain substances can lead to serious [WORD], affecting both physical and mental health.",
+      "correctWord": "addiction",
+      "wrongWords": [
+        "arise",
+        "constantly",
+        "decent"
+      ],
+      "id": "fxm2-rs20k"
+    }
   ]
 }
