@@ -147,6 +147,17 @@
         "delay"
       ],
       "id": "KPK9gOvIfd"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Many modern companies have decided to [WORD] more flexible working hours for their staff,\nbelieving that giving employees more freedom will increase their overall productivity and happiness,\nwhile also helping the business stay competitive in a rapidly changing global market.",
+      "correctWord": "adopt",
+      "wrongWords": [
+        "devote",
+        "advance",
+        "confess"
+      ],
+      "id": "Ch6NWfayCz"
     }
   ]
 }
