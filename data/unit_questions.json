@@ -351,6 +351,18 @@
         }
       ],
       "id": "cPcDw8l2L3"
+    },
+    {
+      "type": "word-meaning",
+      "word": "compulsory",
+      "correctTranslation": "Zorunlu, mecburi.",
+      "correctDefinition": "Required by law or a rule; obligatory; something that you must do.",
+      "wrongChoices": [
+        "access",
+        "artefact",
+        "arise"
+      ],
+      "id": "Q2vvVfK7bW"
     }
   ]
 }
