@@ -169,6 +169,17 @@
         "benefit"
       ],
       "id": "nlaDuAN1ww"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The sudden [WORD] of the factory's main cooling system caused all production to stop immediately,\nforcing the manager to call a team of expert engineers to fix the complicated machinery,\notherwise, the company would lose thousands of dollars due to the unexpected delay in orders.",
+      "correctWord": "breakdown",
+      "wrongWords": [
+        "desperately",
+        "controversy",
+        "dramatically"
+      ],
+      "id": "zUb-R9p8sO"
     }
   ]
 }
