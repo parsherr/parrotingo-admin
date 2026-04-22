@@ -1034,5 +1034,18 @@
       ],
       "id": "DGhJlVs1IK"
     }
+  ],
+  "EcxujuZJqz": [
+    {
+      "type": "gap-fill",
+      "sentence": "The assignment was to round this off in a legally [WORD] text.",
+      "correctWord": "conclusive",
+      "wrongWords": [
+        "commit",
+        "briefly",
+        "deprivation"
+      ],
+      "id": "fYwPxVtYxO"
+    }
   ]
 }
