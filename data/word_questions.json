@@ -1822,5 +1822,18 @@
       ],
       "id": "PAdaj4ESV3"
     }
+  ],
+  "ge3L13oJKv": [
+    {
+      "type": "gap-fill",
+      "sentence": "The company’s profits increased [WORD] after the introduction of its new marketing strategy, surprising even industry experts. This change completely altered its position in the market within a single financial year.",
+      "correctWord": "dramatically",
+      "wrongWords": [
+        "basis",
+        "access",
+        "artefact"
+      ],
+      "id": "hFBXT7RJQM"
+    }
   ]
 }
