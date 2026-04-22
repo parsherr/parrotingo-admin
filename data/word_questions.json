@@ -1726,6 +1726,21 @@
         "discrimination"
       ],
       "id": "wYG2gtxKha"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "A [GAP1] range of opinions was expressed during the discussion, making the debate more interesting.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "diverse",
+          "wrongWords": [
+            "optional",
+            "burden"
+          ]
+        }
+      ],
+      "id": "1zAL_1vtBB"
     }
   ]
 }
