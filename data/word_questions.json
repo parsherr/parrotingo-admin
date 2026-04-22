@@ -1286,6 +1286,18 @@
         "diverse"
       ],
       "id": "mXlaUnRnvP"
+    },
+    {
+      "type": "word-meaning",
+      "word": "benefit",
+      "correctTranslation": "Fayda; yarar.",
+      "correctDefinition": "An advantage or profit gained from something.",
+      "wrongChoices": [
+        "absence",
+        "depiction",
+        "access"
+      ],
+      "id": "9dWSTUo5c4"
     }
   ]
 }
