@@ -926,6 +926,18 @@
         "desperately"
       ],
       "id": "hV19XAfMRY"
+    },
+    {
+      "type": "word-meaning",
+      "word": "crucial",
+      "correctTranslation": "Çok önemli; kritik.",
+      "correctDefinition": "Extremely important or necessary.",
+      "wrongChoices": [
+        "controversy",
+        "artefact",
+        "durable"
+      ],
+      "id": "VP1vnvGTKS"
     }
   ]
 }
