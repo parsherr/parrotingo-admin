@@ -1874,6 +1874,18 @@
         "discrimination"
       ],
       "id": "VbReDU_Cy-"
+    },
+    {
+      "type": "word-meaning",
+      "word": "depiction",
+      "correctTranslation": "Bir şeyin betimlenmesi veya tasviri.",
+      "correctDefinition": "A description or representation of something.",
+      "wrongChoices": [
+        "abandon",
+        "advance",
+        "dramatically"
+      ],
+      "id": "ekLhS-zvKe"
     }
   ]
 }
