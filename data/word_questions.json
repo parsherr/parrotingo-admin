@@ -446,5 +446,18 @@
       ],
       "id": "xxLp3TcboB"
     }
+  ],
+  "aHNZuD91Rs": [
+    {
+      "type": "gap-fill",
+      "sentence": "It is both realistic and relevant to [WORD] and to provide for that.",
+      "correctWord": "acknowledge",
+      "wrongWords": [
+        "decent",
+        "collide",
+        "arise"
+      ],
+      "id": "toGW8GwjZw"
+    }
   ]
 }
