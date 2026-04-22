@@ -1689,6 +1689,18 @@
         }
       ],
       "id": "Yd4Nw1cIAb"
+    },
+    {
+      "type": "word-meaning",
+      "word": "decent",
+      "correctTranslation": "Yeterince iyi; kabul edilebilir.",
+      "correctDefinition": "Good enough; acceptable in quality or behavior.",
+      "wrongChoices": [
+        "devote",
+        "burden",
+        "demand"
+      ],
+      "id": "8hb0zFL-gO"
     }
   ]
 }
