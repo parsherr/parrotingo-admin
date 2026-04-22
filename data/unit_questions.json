@@ -250,5 +250,18 @@
       ],
       "id": "XwJcjyEyQY"
     }
+  ],
+  "unit-2": [
+    {
+      "type": "gap-fill",
+      "sentence": "It is important for a successful leader to [WORD] the hard work and achievements of their team members,\nbecause showing appreciation for their efforts motivates everyone to perform better in future projects,\nand creates a positive atmosphere where every employee feels valued and respected for their contribution.",
+      "correctWord": "acknowledge",
+      "wrongWords": [
+        "burden",
+        "abandon",
+        "avoid"
+      ],
+      "id": "-a6EQarkKU"
+    }
   ]
 }
