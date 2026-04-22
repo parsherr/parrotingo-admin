@@ -1274,5 +1274,18 @@
       ],
       "id": "N7dRhDkaze"
     }
+  ],
+  "tuJ8SDZpq_": [
+    {
+      "type": "gap-fill",
+      "sentence": "Regular exercise provides a significant [WORD] to both physical health and mental well-being.",
+      "correctWord": "benefit",
+      "wrongWords": [
+        "destiny",
+        "deceive",
+        "diverse"
+      ],
+      "id": "mXlaUnRnvP"
+    }
   ]
 }
