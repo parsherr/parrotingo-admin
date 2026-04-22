@@ -502,6 +502,17 @@
         }
       ],
       "id": "bvjuvbVTuC"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "That one is the most valuable [WORD] in this museum.",
+      "correctWord": "artefact",
+      "wrongWords": [
+        "abandon",
+        "dramatically",
+        "controversy"
+      ],
+      "id": "3oHenVuAYM"
     }
   ]
 }
