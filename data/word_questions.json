@@ -886,6 +886,18 @@
         "collapse"
       ],
       "id": "o5q2Kx81JD"
+    },
+    {
+      "type": "word-meaning",
+      "word": "confess",
+      "correctTranslation": "Bir yanlış yaptığını itiraf etmek.",
+      "correctDefinition": "To admit that you have done something wrong or illegal.",
+      "wrongChoices": [
+        "astonishment",
+        "destiny",
+        "desperately"
+      ],
+      "id": "f_F6ODbfF4"
     }
   ]
 }
