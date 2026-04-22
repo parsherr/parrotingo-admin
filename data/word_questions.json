@@ -1886,6 +1886,21 @@
         "dramatically"
       ],
       "id": "ekLhS-zvKe"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Artists often use symbolic elements in their [GAP1] of historical events to express deeper meanings. These representations can influence how audiences interpret the past.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "depiction",
+          "wrongWords": [
+            "expedition",
+            "artefact"
+          ]
+        }
+      ],
+      "id": "OpQdm0G43t"
     }
   ]
 }
