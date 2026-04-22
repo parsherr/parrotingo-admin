@@ -646,5 +646,18 @@
       ],
       "id": "FMcmYhCpAL"
     }
+  ],
+  "G2PfgaEzVi": [
+    {
+      "type": "gap-fill",
+      "sentence": "Drivers are advised to [WORD] this road during rush hour due to heavy traffic and frequent accidents.",
+      "correctWord": "avoid",
+      "wrongWords": [
+        "candidate",
+        "addiction",
+        "durable"
+      ],
+      "id": "FFlgmI4aPj"
+    }
   ]
 }
