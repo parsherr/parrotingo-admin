@@ -32,6 +32,17 @@
         "disorder"
       ],
       "id": "nbCKgjWNkS"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The scientists explained that regular exercise and a healthy diet form the [WORD] of a long life,\nproviding the body with the necessary energy and strength to fight against various illnesses,\nwhile also improving mental health and reducing the overall stress levels of modern daily routines.",
+      "correctWord": "basis",
+      "wrongWords": [
+        "controversy",
+        "barren",
+        "deceive"
+      ],
+      "id": "083De4hJni"
     }
   ]
 }
