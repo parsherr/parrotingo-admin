@@ -1969,6 +1969,18 @@
         }
       ],
       "id": "jN9KqOdNCN"
+    },
+    {
+      "type": "word-meaning",
+      "word": "delay",
+      "correctTranslation": "Bir şeyi planlanandan geç yapmak.",
+      "correctDefinition": "To make something happen later than planned.",
+      "wrongChoices": [
+        "artefact",
+        "absence",
+        "abrupt"
+      ],
+      "id": "fqS64r-NaT"
     }
   ]
 }
