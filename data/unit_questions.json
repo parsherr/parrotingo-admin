@@ -399,6 +399,17 @@
         "confess"
       ],
       "id": "m1z-PiHY0p"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The old movie was criticized by many historians for its inaccurate [WORD] of the 18th-century lifestyle,\nas it failed to show the true difficulties people faced and focused only on the lives of rich noble families,\nmaking it more of a fictional story rather than a reliable source for understanding that specific historical era.",
+      "correctWord": "depiction",
+      "wrongWords": [
+        "acknowledge",
+        "abrupt",
+        "destiny"
+      ],
+      "id": "4CqrE8p_yO"
     }
   ]
 }
