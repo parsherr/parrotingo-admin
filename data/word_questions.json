@@ -861,6 +861,18 @@
         }
       ],
       "id": "lNSKVyhfVv"
+    },
+    {
+      "type": "word-meaning",
+      "word": "addiction",
+      "correctTranslation": "Bağımlılık; özellikle zararlı bir şeye güçlü bağlılık.",
+      "correctDefinition": "A strong dependence on something, especially harmful.",
+      "wrongChoices": [
+        "collapse",
+        "basis",
+        "deprivation"
+      ],
+      "id": "2QDGTJRNkr"
     }
   ]
 }
