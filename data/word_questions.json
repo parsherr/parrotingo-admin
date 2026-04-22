@@ -938,6 +938,21 @@
         "durable"
       ],
       "id": "VP1vnvGTKS"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "It is [GAP1] that all safety checks are completed before the aircraft is cleared for takeoff.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "crucial",
+          "wrongWords": [
+            "safe",
+            "plenty"
+          ]
+        }
+      ],
+      "id": "LaOm0rnFd4"
     }
   ]
 }
