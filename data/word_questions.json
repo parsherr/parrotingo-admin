@@ -658,6 +658,21 @@
         "durable"
       ],
       "id": "FFlgmI4aPj"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Students often try to [GAP1] making eye contact when they are unsure of the answer in class.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "avoid",
+          "wrongWords": [
+            "royale",
+            "fight"
+          ]
+        }
+      ],
+      "id": "csZdVcTmDn"
     }
   ]
 }
