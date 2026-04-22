@@ -914,5 +914,18 @@
       ],
       "id": "DB-EVEUbz8"
     }
+  ],
+  "GCvsgMzB1D": [
+    {
+      "type": "gap-fill",
+      "sentence": "Time management is [WORD] when preparing for important exams or competitive applications.",
+      "correctWord": "crucial",
+      "wrongWords": [
+        "dramatically",
+        "astonishment",
+        "desperately"
+      ],
+      "id": "hV19XAfMRY"
+    }
   ]
 }
