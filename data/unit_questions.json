@@ -376,5 +376,18 @@
       ],
       "id": "D_Iq_eqUxV"
     }
+  ],
+  "eGQEJJaHdH": [
+    {
+      "type": "gap-fill",
+      "sentence": "The city of Istanbul is home to a very [WORD] population representing hundreds of different cultures,\nwhere you can find traditional historical sites right next to modern skyscrapers and international businesses,\ncreating a vibrant social life that offers unique experiences for both residents and tourists alike.",
+      "correctWord": "diverse",
+      "wrongWords": [
+        "disorder",
+        "basis",
+        "acknowledge"
+      ],
+      "id": "Di2ZYsdjtZ"
+    }
   ]
 }
