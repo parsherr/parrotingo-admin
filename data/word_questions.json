@@ -1502,5 +1502,18 @@
       ],
       "id": "Z1KQt2ZxTV"
     }
+  ],
+  "7i9co3oKC7": [
+    {
+      "type": "gap-fill",
+      "sentence": "Some companies try to [WORD] customers by advertising products that do not actually match their claims.",
+      "correctWord": "deceive",
+      "wrongWords": [
+        "advance",
+        "avoid",
+        "decline"
+      ],
+      "id": "DivqPsdFJG"
+    }
   ]
 }
