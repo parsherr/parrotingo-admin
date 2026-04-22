@@ -1634,6 +1634,21 @@
         "discrimination"
       ],
       "id": "ZdtPSlqB1W"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "If we ignore the warning signs, the situation may [GAP1] even further in the coming months.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "decline",
+          "wrongWords": [
+            "rise",
+            "content"
+          ]
+        }
+      ],
+      "id": "pK6qYNDi_-"
     }
   ]
 }
