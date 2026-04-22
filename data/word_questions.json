@@ -586,6 +586,21 @@
         "controversy"
       ],
       "id": "n7E01rgjEa"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The engineer had to make a final [GAP1] to the machine’s settings before it could operate safely.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "adjust",
+          "wrongWords": [
+            "enforce",
+            "praise"
+          ]
+        }
+      ],
+      "id": "bpf7vcYTi8"
     }
   ]
 }
