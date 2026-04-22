@@ -558,6 +558,21 @@
         "advance"
       ],
       "id": "k3Z0F8RSuJ"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The professor gave us a [GAP1] overview of world history during the very first lecture of the semester,\ncovering the rise and fall of major civilizations from ancient times to the beginning of the industrial revolution,\nto help students understand the complex connections between different cultures and historical events worldwide.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "broad",
+          "wrongWords": [
+            "abroad",
+            "barren"
+          ]
+        }
+      ],
+      "id": "C6Em8-Btf1"
     }
   ]
 }
