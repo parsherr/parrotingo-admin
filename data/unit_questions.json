@@ -136,6 +136,17 @@
         "controversy"
       ],
       "id": "x1n_6NsVVj"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The museum visitors were amazed by the ancient golden [WORD] found in the deep ocean,\nas it provided crucial clues about the daily lives and artistic skills of a forgotten civilization,\nproving that people living thousands of years ago were much more sophisticated than we thought.",
+      "correctWord": "artefact",
+      "wrongWords": [
+        "advance",
+        "deceive",
+        "delay"
+      ],
+      "id": "KPK9gOvIfd"
     }
   ]
 }
