@@ -1766,6 +1766,21 @@
         "dramatically"
       ],
       "id": "G42X1ei4Lb"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Mental health [GAP1] can affect a person’s thoughts, emotions, and behavior significantly.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "disorder",
+          "wrongWords": [
+            "health",
+            "discrimination"
+          ]
+        }
+      ],
+      "id": "L2_lkpCBPp"
     }
   ]
 }
