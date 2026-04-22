@@ -1702,5 +1702,19 @@
       ],
       "id": "8hb0zFL-gO"
     }
+  ],
+  "nB75NZMh9g": [
+    {
+      "type": "word-meaning",
+      "word": "diverse",
+      "correctTranslation": "Çeşitli; farklı türleri içeren.",
+      "correctDefinition": "Including many different types.",
+      "wrongChoices": [
+        "abandon",
+        "absence",
+        "deceive"
+      ],
+      "id": "Tjn3P-lEjC"
+    }
   ]
 }
