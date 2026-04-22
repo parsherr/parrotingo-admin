@@ -615,6 +615,18 @@
         "deprivation"
       ],
       "id": "CR1bSRKYnf"
+    },
+    {
+      "type": "word-meaning",
+      "word": "dramatically",
+      "correctTranslation": "Ani ve belirgin bir şekilde, çarpıcı bir biçimde, müthiş derecede.",
+      "correctDefinition": "In a way that is sudden, very noticeable, and often surprising; in a theatrical manner.",
+      "wrongChoices": [
+        "briefly",
+        "decent",
+        "adjust"
+      ],
+      "id": "N3q19ha8ay"
     }
   ]
 }
