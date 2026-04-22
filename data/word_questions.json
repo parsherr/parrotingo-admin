@@ -1378,6 +1378,21 @@
         "absence"
       ],
       "id": "YXCHw8H6IF"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The lights were so dim that she could [GAP1] see the outline of the objects in the room.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "barely",
+          "wrongWords": [
+            "briefly",
+            "thankfully"
+          ]
+        }
+      ],
+      "id": "BDyOEKEzEO"
     }
   ]
 }
