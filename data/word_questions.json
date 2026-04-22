@@ -406,5 +406,18 @@
       ],
       "id": "TF4XsMHAju"
     }
+  ],
+  "qAHZRJqmkR": [
+    {
+      "type": "gap-fill",
+      "sentence": "We must focus our attention on what kind of values are to form the direction in which we shall [WORD].",
+      "correctWord": "advance",
+      "wrongWords": [
+        "depiction",
+        "broad",
+        "conclusive"
+      ],
+      "id": "6F4OA25jsi"
+    }
   ]
 }
