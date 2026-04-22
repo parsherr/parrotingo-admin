@@ -526,5 +526,18 @@
       ],
       "id": "bhhN4qjcb9"
     }
+  ],
+  "NgaffQeoAw": [
+    {
+      "type": "gap-fill",
+      "sentence": "The rainforest is home to an [WORD] variety of plant and animal species that thrive in its warm and humid climate.",
+      "correctWord": "abundant",
+      "wrongWords": [
+        "devote",
+        "basis",
+        "deceive"
+      ],
+      "id": "q_bs4Hnncp"
+    }
   ]
 }
