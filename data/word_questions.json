@@ -1849,6 +1849,18 @@
         }
       ],
       "id": "Do3Rno3T2Z"
+    },
+    {
+      "type": "word-meaning",
+      "word": "dramatically",
+      "correctTranslation": "Ani veya belirgin şekilde.",
+      "correctDefinition": "In a sudden or noticeable way.",
+      "wrongChoices": [
+        "destiny",
+        "artefact",
+        "crucial"
+      ],
+      "id": "xwJ_d9j2Rg"
     }
   ]
 }
