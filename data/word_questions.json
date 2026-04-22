@@ -1609,6 +1609,18 @@
         }
       ],
       "id": "iyst-9GUnP"
+    },
+    {
+      "type": "word-meaning",
+      "word": "discrimination",
+      "correctTranslation": "Irk, cinsiyet gibi farklara dayalı adaletsiz davranış.",
+      "correctDefinition": "Unfair treatment based on differences like race or gender.",
+      "wrongChoices": [
+        "broad",
+        "crucial",
+        "controversy"
+      ],
+      "id": "EKWd9uSWNT"
     }
   ]
 }
