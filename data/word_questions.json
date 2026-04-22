@@ -1434,6 +1434,18 @@
         "advance"
       ],
       "id": "Z7N3cYO_sH"
+    },
+    {
+      "type": "word-meaning",
+      "word": "briefly",
+      "correctTranslation": "Kısaca; kısa süreyle.",
+      "correctDefinition": "For a short time; in a few words.",
+      "wrongChoices": [
+        "broad",
+        "crucial",
+        "bearable"
+      ],
+      "id": "C0bAJOxaiC"
     }
   ]
 }
