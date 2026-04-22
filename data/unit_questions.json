@@ -84,6 +84,21 @@
         }
       ],
       "id": "F1xDQtJ29P"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "If you want to master a new language, you must [GAP1] at least two hours every single day to study,\nfocusing on grammar rules, vocabulary building, and listening to native speakers constantly,\notherwise, it will be very difficult to achieve a high level of fluency in such a short time.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "devote",
+          "wrongWords": [
+            "add",
+            "embrace"
+          ]
+        }
+      ],
+      "id": "MQwhXcCUWE"
     }
   ]
 }
