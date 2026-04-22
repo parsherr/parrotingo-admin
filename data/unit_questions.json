@@ -225,6 +225,18 @@
         }
       ],
       "id": "-LPGzRGiQX"
+    },
+    {
+      "type": "word-meaning",
+      "word": "constantly",
+      "correctTranslation": "sürekli",
+      "correctDefinition": "Continuously over a period of time; always or very often.",
+      "wrongChoices": [
+        "abandon",
+        "destiny",
+        "derive"
+      ],
+      "id": "9GhSIjtqUa"
     }
   ]
 }
