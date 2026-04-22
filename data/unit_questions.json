@@ -462,6 +462,21 @@
         }
       ],
       "id": "7jl8Ks8bz_"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Research shows that chronic sleep [GAP1] can seriously affect a student's ability to focus and learn new things,\nleading to lower grades in exams and a general feeling of exhaustion that makes daily activities much harder,\nwhich is why getting at least seven to eight hours of rest is considered vital for mental and physical health.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "deprivation",
+          "wrongWords": [
+            "abundant",
+            "blossom"
+          ]
+        }
+      ],
+      "id": "EiF-UvWLE5"
     }
   ]
 }
