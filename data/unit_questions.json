@@ -210,6 +210,21 @@
         }
       ],
       "id": "pFo27jSVTK"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "You need a special security code to [GAP1] the confidential files stored on the main laboratory server,\nas the information inside is highly sensitive and only authorized researchers are allowed to see it,\nwhich ensures that the private data of the participants remains safe from any external threats.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "access",
+          "wrongWords": [
+            "presume",
+            "cancel"
+          ]
+        }
+      ],
+      "id": "-LPGzRGiQX"
     }
   ]
 }
