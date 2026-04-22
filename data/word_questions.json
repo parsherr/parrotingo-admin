@@ -1218,6 +1218,21 @@
         "adjust"
       ],
       "id": "_CEpzYekH8"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "We need a [GAP1] range of solutions to address the complex issues in urban planning.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "broad",
+          "wrongWords": [
+            "burden",
+            "artefact"
+          ]
+        }
+      ],
+      "id": "ZDgROY9I42"
     }
   ]
 }
