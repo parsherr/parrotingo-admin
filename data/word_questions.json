@@ -1594,6 +1594,21 @@
         "adjust"
       ],
       "id": "oyQQ9WdFxH"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Laws have been introduced in many countries to prevent [GAP1] based on gender or ethnicity.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "discrimination",
+          "wrongWords": [
+            "fancy",
+            "speciality"
+          ]
+        }
+      ],
+      "id": "iyst-9GUnP"
     }
   ]
 }
