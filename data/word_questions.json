@@ -1046,6 +1046,18 @@
         "deprivation"
       ],
       "id": "fYwPxVtYxO"
+    },
+    {
+      "type": "word-meaning",
+      "word": "conclusive",
+      "correctTranslation": "Kesin sonuç veren; nihai.",
+      "correctDefinition": "Providing a final answer or decision; decisive.",
+      "wrongChoices": [
+        "delay",
+        "abandon",
+        "controversy"
+      ],
+      "id": "WmveMZDLWA"
     }
   ]
 }
