@@ -1862,5 +1862,18 @@
       ],
       "id": "xwJ_d9j2Rg"
     }
+  ],
+  "iXH2QbkYDC": [
+    {
+      "type": "gap-fill",
+      "sentence": "The film provides a realistic [WORD] of life in rural areas during the early 20th century, highlighting social struggles of the time. Many critics praised its attention to historical detail and emotional depth.",
+      "correctWord": "depiction",
+      "wrongWords": [
+        "artefact",
+        "compulsory",
+        "discrimination"
+      ],
+      "id": "VbReDU_Cy-"
+    }
   ]
 }
