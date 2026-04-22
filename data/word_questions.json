@@ -1474,6 +1474,18 @@
         "discrimination"
       ],
       "id": "u4KWIltcaX"
+    },
+    {
+      "type": "word-meaning",
+      "word": "deprivation",
+      "correctTranslation": "Zamanla temel ihtiyaçların (yiyecek, su, konfor) eksikliği.",
+      "correctDefinition": "A lack of basic needs like food, water, or comfort over time.",
+      "wrongChoices": [
+        "deceive",
+        "abandon",
+        "astonishment"
+      ],
+      "id": "U2L2_sIpGr"
     }
   ]
 }
