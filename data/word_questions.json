@@ -1154,5 +1154,18 @@
       ],
       "id": "qXcasPT4pQ"
     }
+  ],
+  "y9bN3ArYbc": [
+    {
+      "type": "gap-fill",
+      "sentence": "The system experienced a complete [WORD] after the unexpected power surge damaged its internal components.",
+      "correctWord": "breakdown",
+      "wrongWords": [
+        "delay",
+        "derive",
+        "adopt"
+      ],
+      "id": "_NowzLMaIs"
+    }
   ]
 }
