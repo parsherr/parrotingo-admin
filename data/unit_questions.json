@@ -295,6 +295,17 @@
         "abundant"
       ],
       "id": "ZVn8sT_ZW6"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The sudden power outage caused a great deal of [WORD] in the city center during the busiest hours of the evening,\nwith traffic lights failing and public transportation stopping completely, leading to long queues of frustrated people,\nuntil the technical teams finally managed to restore the electricity and return everything to its normal state.",
+      "correctWord": "disorder",
+      "wrongWords": [
+        "broad",
+        "commit",
+        "collide"
+      ],
+      "id": "6lxTo2c00w"
     }
   ]
 }
