@@ -1569,6 +1569,18 @@
         }
       ],
       "id": "gKK6tvRg79"
+    },
+    {
+      "type": "word-meaning",
+      "word": "durable",
+      "correctTranslation": "Uzun süre zarar görmeden dayanabilen.",
+      "correctDefinition": "Able to last long without damage.",
+      "wrongChoices": [
+        "controversy",
+        "collide",
+        "briefly"
+      ],
+      "id": "18Q8cCPHVe"
     }
   ]
 }
