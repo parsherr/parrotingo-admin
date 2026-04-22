@@ -898,6 +898,21 @@
         "desperately"
       ],
       "id": "f_F6ODbfF4"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "During the investigation, the suspect refused to [GAP1] anything without his lawyer present.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "confess",
+          "wrongWords": [
+            "help",
+            "indicate"
+          ]
+        }
+      ],
+      "id": "DB-EVEUbz8"
     }
   ]
 }
