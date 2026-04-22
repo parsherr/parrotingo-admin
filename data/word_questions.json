@@ -994,5 +994,18 @@
       ],
       "id": "e3mD_BZqrJ"
     }
+  ],
+  "dtE3NCFBEK": [
+    {
+      "type": "gap-fill",
+      "sentence": "Attendance is not [WORD], but completing the project is.",
+      "correctWord": "compulsory",
+      "wrongWords": [
+        "advance",
+        "devote",
+        "basis"
+      ],
+      "id": "UlUmF9irfe"
+    }
   ]
 }
