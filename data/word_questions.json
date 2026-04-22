@@ -630,6 +630,21 @@
         "conclusive"
       ],
       "id": "oFn1rqtj6K"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The company decided to [GAP1] a new digital strategy to stay competitive in the rapidly changing market.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "adopt",
+          "wrongWords": [
+            "interrupt",
+            "aid"
+          ]
+        }
+      ],
+      "id": "FMcmYhCpAL"
     }
   ]
 }
