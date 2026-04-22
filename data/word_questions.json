@@ -538,6 +538,17 @@
         "deceive"
       ],
       "id": "q_bs4Hnncp"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "After the heavy rainfall, water became [GAP1] in the fields, filling every small natural depression.",
+      "correctWord": "abundant",
+      "wrongWords": [
+        "access",
+        "barely",
+        "commit"
+      ],
+      "id": "yq66dLsx-6"
     }
   ]
 }
