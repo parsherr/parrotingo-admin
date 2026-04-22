@@ -321,6 +321,21 @@
         }
       ],
       "id": "gfKB1r8u-t"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The high cost of university education can become a heavy financial [GAP1] for many young students and their families,\nforcing them to take out large loans that may take many years to pay back after they start their professional careers,\nwhich is why many people are now calling for more government support and scholarship opportunities in education.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "burden",
+          "wrongWords": [
+            "barren",
+            "collide"
+          ]
+        }
+      ],
+      "id": "9Jz-y5SKFD"
     }
   ]
 }
