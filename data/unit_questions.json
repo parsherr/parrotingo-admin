@@ -489,6 +489,18 @@
         "discrimination"
       ],
       "id": "D7JYE4XiMk"
+    },
+    {
+      "type": "word-meaning",
+      "word": "decent",
+      "correctTranslation": "Doğru dürüst, yeterince iyi, uygun, makul.",
+      "correctDefinition": "Of an acceptable standard; satisfactory; good enough but not necessarily amazing.",
+      "wrongChoices": [
+        "benefit",
+        "breakdown",
+        "depiction"
+      ],
+      "id": "M7V2wdv7Nw"
     }
   ]
 }
