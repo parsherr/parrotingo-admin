@@ -447,21 +447,6 @@
         }
       ],
       "id": "Q8l1uz_KON"
-    },
-    {
-      "type": "multiple-gap",
-      "text": "The police officers were disappointed because the evidence found at the crime scene was not [GAP1],\nmeaning they could not prove who committed the robbery without finding more fingerprints or video footage,\nso they had to continue their investigation for several more weeks until they found a primary suspect.",
-      "gaps": [
-        {
-          "id": "GAP1",
-          "correctWord": "conclusive",
-          "wrongWords": [
-            "surge",
-            "depiction"
-          ]
-        }
-      ],
-      "id": "MF6XQCHdOd"
     }
   ]
 }
