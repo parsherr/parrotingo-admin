@@ -1206,6 +1206,18 @@
         "candidate"
       ],
       "id": "-tzfySbDu_"
+    },
+    {
+      "type": "word-meaning",
+      "word": "broad",
+      "correctTranslation": "Geniş; kapsamlı.",
+      "correctDefinition": "Wide; covering a large area or range.",
+      "wrongChoices": [
+        "abandon",
+        "abrupt",
+        "adjust"
+      ],
+      "id": "_CEpzYekH8"
     }
   ]
 }
