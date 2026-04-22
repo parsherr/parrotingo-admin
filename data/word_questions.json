@@ -1554,6 +1554,21 @@
         "devote"
       ],
       "id": "xbKAPYmQcU"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The new materials used in construction are far more [GAP1] than traditional ones.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "durable",
+          "wrongWords": [
+            "essential",
+            "placement"
+          ]
+        }
+      ],
+      "id": "gKK6tvRg79"
     }
   ]
 }
