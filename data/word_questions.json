@@ -1582,5 +1582,18 @@
       ],
       "id": "18Q8cCPHVe"
     }
+  ],
+  "SCrYTr9F7c": [
+    {
+      "type": "gap-fill",
+      "sentence": "Workplace [WORD] can negatively affect employees’ motivation, productivity, and overall well-being.",
+      "correctWord": "discrimination",
+      "wrongWords": [
+        "dramatically",
+        "controversy",
+        "adjust"
+      ],
+      "id": "oyQQ9WdFxH"
+    }
   ]
 }
