@@ -470,6 +470,21 @@
         "absence"
       ],
       "id": "QyatOnuVSo"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "First I want to begin to [GAP1] you.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "acknowledge",
+          "wrongWords": [
+            "grain",
+            "deploy"
+          ]
+        }
+      ],
+      "id": "0FxD4c5BXm"
     }
   ]
 }
