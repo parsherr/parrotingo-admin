@@ -1794,6 +1794,21 @@
         "decline"
       ],
       "id": "h206WFf9Kk"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Consumers began to [GAP1] better quality products after several safety issues were reported in the industry. This shift forced many companies to improve their production standards and customer service.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "demand",
+          "wrongWords": [
+            "enforcement",
+            "pleasure"
+          ]
+        }
+      ],
+      "id": "f4OMi3MU4d"
     }
   ]
 }
