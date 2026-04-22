@@ -410,6 +410,17 @@
         "destiny"
       ],
       "id": "4CqrE8p_yO"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Many unexpected technical problems can [WORD] during the final stages of a complex software project,\nrequiring the development team to work extra hours and perform deep tests to find the root cause of the bugs,\nwhich often leads to a slight delay in the official release date of the new application to the public market.",
+      "correctWord": "arise",
+      "wrongWords": [
+        "desperately",
+        "abandon",
+        "astonishment"
+      ],
+      "id": "wDcFi5JN9c"
     }
   ]
 }
