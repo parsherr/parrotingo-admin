@@ -547,6 +547,17 @@
         "discrimination"
       ],
       "id": "Nhi4JHsC2o"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Astronomers are constantly monitoring large asteroids that might [WORD] with Earth in the distant future,\nusing advanced telescopes and mathematical models to calculate their exact paths through the solar system,\nso that scientists can develop a reliable plan to deflect these space rocks before they cause a global disaster.",
+      "correctWord": "collide",
+      "wrongWords": [
+        "constantly",
+        "burden",
+        "advance"
+      ],
+      "id": "k3Z0F8RSuJ"
     }
   ]
 }
