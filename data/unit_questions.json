@@ -262,6 +262,17 @@
         "avoid"
       ],
       "id": "-a6EQarkKU"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The tropical rainforest is famous for its [WORD] wildlife and variety of exotic plants that cannot be found anywhere else,\nproviding a rich ecosystem where thousands of different species live together in a delicate natural balance,\nwhich scientists from all over the world travel to study and document for future environmental research.",
+      "correctWord": "abundant",
+      "wrongWords": [
+        "acknowledge",
+        "collapse",
+        "derive"
+      ],
+      "id": "okByVaTT_j"
     }
   ]
 }
