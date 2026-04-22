@@ -388,6 +388,17 @@
         "acknowledge"
       ],
       "id": "Di2ZYsdjtZ"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "When choosing outdoor gear for a long mountain expedition, it is essential to select [WORD] materials,\nbecause they need to withstand extreme weather conditions like heavy rain, strong winds, and freezing snow,\nwithout getting damaged easily while you are far away from any city or professional repair services.",
+      "correctWord": "durable",
+      "wrongWords": [
+        "barely",
+        "disorder",
+        "confess"
+      ],
+      "id": "m1z-PiHY0p"
     }
   ]
 }
