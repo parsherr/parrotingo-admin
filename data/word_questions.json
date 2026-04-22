@@ -1098,6 +1098,21 @@
         "discrimination"
       ],
       "id": "W6tRSuu7Qr"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "She was [GAP1] reminded of her responsibilities by her supervisor throughout the project.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "constantly",
+          "wrongWords": [
+            "ruinly",
+            "plenty"
+          ]
+        }
+      ],
+      "id": "kwwzRC-GZQ"
     }
   ]
 }
