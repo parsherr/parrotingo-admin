@@ -1433,6 +1433,18 @@
         }
       ],
       "id": "VNpLc4nqz3"
+    },
+    {
+      "type": "word-meaning",
+      "word": "burden",
+      "correctTranslation": "Yük; sorumluluk.",
+      "correctDefinition": "A heavy load or responsibility.",
+      "wrongChoices": [
+        "basis",
+        "desperately",
+        "durable"
+      ],
+      "id": "wDqanOIcME"
     }
   ],
   "INOvZJTJyy": [
