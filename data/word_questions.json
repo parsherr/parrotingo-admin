@@ -1166,6 +1166,18 @@
         "adopt"
       ],
       "id": "_NowzLMaIs"
+    },
+    {
+      "type": "word-meaning",
+      "word": "breakdown",
+      "correctTranslation": "Bozulma; çöküş; ayrıca ayrıntılı analiz.",
+      "correctDefinition": "A failure or collapse of a system; a detailed analysis.",
+      "wrongChoices": [
+        "conclusive",
+        "abundant",
+        "addiction"
+      ],
+      "id": "nfHCh1a4qL"
     }
   ]
 }
