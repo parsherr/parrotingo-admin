@@ -550,6 +550,21 @@
         "burden"
       ],
       "id": "xsA_wDBMC2"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "After the heavy rainfall, water became [GAP1] in the fields, filling every small natural depression.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "abundant",
+          "wrongWords": [
+            "free",
+            "delay"
+          ]
+        }
+      ],
+      "id": "3A1cCtNv7i"
     }
   ],
   "oOk8N1nQVN": [
