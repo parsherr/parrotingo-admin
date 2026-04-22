@@ -1298,6 +1298,21 @@
         "access"
       ],
       "id": "9dWSTUo5c4"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "One of the main [GAP1] of studying abroad is exposure to different cultures and educational systems.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "benefit",
+          "wrongWords": [
+            "collide",
+            "harm"
+          ]
+        }
+      ],
+      "id": "kxqAXjo2tQ"
     }
   ]
 }
