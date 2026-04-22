@@ -1542,5 +1542,18 @@
       ],
       "id": "tCdc1vnXPs"
     }
+  ],
+  "YnpJY6HEHb": [
+    {
+      "type": "gap-fill",
+      "sentence": "Outdoor equipment must be [WORD] enough to withstand extreme weather conditions and heavy usage.",
+      "correctWord": "durable",
+      "wrongWords": [
+        "barely",
+        "addiction",
+        "devote"
+      ],
+      "id": "xbKAPYmQcU"
+    }
   ]
 }
