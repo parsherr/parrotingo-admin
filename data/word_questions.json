@@ -754,5 +754,19 @@
       ],
       "id": "2l5f7tILNC"
     }
+  ],
+  "T02XivIVs7": [
+    {
+      "type": "word-meaning",
+      "word": "astonishment",
+      "correctTranslation": "Büyük şaşkınlık; hayret.",
+      "correctDefinition": "Great surprise.",
+      "wrongChoices": [
+        "basis",
+        "depiction",
+        "bearable"
+      ],
+      "id": "cFuQxQbntK"
+    }
   ]
 }
