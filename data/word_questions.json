@@ -1366,6 +1366,18 @@
         "destiny"
       ],
       "id": "QQ5_A1LI1I"
+    },
+    {
+      "type": "word-meaning",
+      "word": "barely",
+      "correctTranslation": "Zar zor; neredeyse hiç.",
+      "correctDefinition": "Only just; almost not.",
+      "wrongChoices": [
+        "destiny",
+        "acknowledge",
+        "absence"
+      ],
+      "id": "YXCHw8H6IF"
     }
   ]
 }
