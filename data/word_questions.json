@@ -778,6 +778,21 @@
         "candidate"
       ],
       "id": "AFWbPZZK92"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The audience reacted with [GAP1] as the magician performed an impossible trick.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "astonishment",
+          "wrongWords": [
+            "embarresment",
+            "laughing"
+          ]
+        }
+      ],
+      "id": "1ZCQgrFOcv"
     }
   ]
 }
