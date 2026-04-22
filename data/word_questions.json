@@ -874,5 +874,18 @@
       ],
       "id": "2QDGTJRNkr"
     }
+  ],
+  "zKHsfdACJ5": [
+    {
+      "type": "gap-fill",
+      "sentence": "He finally decided to [WORD] the truth after hiding it for several weeks from his closest friends.",
+      "correctWord": "confess",
+      "wrongWords": [
+        "avoid",
+        "delay",
+        "collapse"
+      ],
+      "id": "o5q2Kx81JD"
+    }
   ]
 }
