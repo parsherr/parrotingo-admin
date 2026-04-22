@@ -562,5 +562,18 @@
       ],
       "id": "xsA_wDBMC2"
     }
+  ],
+  "oOk8N1nQVN": [
+    {
+      "type": "gap-fill",
+      "sentence": "You may need to [WORD] your study schedule if you want to balance academic work and personal life effectively.",
+      "correctWord": "adjust",
+      "wrongWords": [
+        "abandon",
+        "dramatically",
+        "bearable"
+      ],
+      "id": "uASqQjkkU6"
+    }
   ]
 }
