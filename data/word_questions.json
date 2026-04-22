@@ -1018,6 +1018,21 @@
         "benefit"
       ],
       "id": "MWlznQR075"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Attendance is not [GAP1], but completing the project is.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "compulsory",
+          "wrongWords": [
+            "needed",
+            "planned"
+          ]
+        }
+      ],
+      "id": "DGhJlVs1IK"
     }
   ]
 }
