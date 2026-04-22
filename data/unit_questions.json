@@ -525,6 +525,17 @@
         "delay"
       ],
       "id": "PC9_EDKhS1"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The thief finally decided to [WORD] his crimes after the police showed him the clear security camera footage,\nexplaining exactly how he entered the building and where he hid the stolen jewelry during the stormy night,\nhoping that telling the truth would help him receive a lighter sentence from the judge during the final trial.",
+      "correctWord": "confess",
+      "wrongWords": [
+        "desperately",
+        "adjust",
+        "abandon"
+      ],
+      "id": "9P1DHlADex"
     }
   ]
 }
