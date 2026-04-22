@@ -1649,6 +1649,18 @@
         }
       ],
       "id": "pK6qYNDi_-"
+    },
+    {
+      "type": "word-meaning",
+      "word": "decline",
+      "correctTranslation": "Zamanla azalmak veya kötüleşmek.",
+      "correctDefinition": "To become less or worse over time.",
+      "wrongChoices": [
+        "conclusive",
+        "absence",
+        "devote"
+      ],
+      "id": "xpVaq3n7LP"
     }
   ]
 }
