@@ -99,6 +99,18 @@
         }
       ],
       "id": "MQwhXcCUWE"
+    },
+    {
+      "type": "word-meaning",
+      "word": "destiny",
+      "correctTranslation": "kader",
+      "correctDefinition": "The events that will necessarily happen to a particular person or thing in the future; a power that is believed to control what happens.",
+      "wrongChoices": [
+        "advance",
+        "durable",
+        "deprivation"
+      ],
+      "id": "3uboOluc3N"
     }
   ]
 }
