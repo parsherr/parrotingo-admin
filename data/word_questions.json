@@ -1086,6 +1086,18 @@
         "artefact"
       ],
       "id": "ymJRY-_j8c"
+    },
+    {
+      "type": "word-meaning",
+      "word": "constantly",
+      "correctTranslation": "Continuously; all the time.",
+      "correctDefinition": "Continuously; all the time.",
+      "wrongChoices": [
+        "abandon",
+        "abrupt",
+        "discrimination"
+      ],
+      "id": "W6tRSuu7Qr"
     }
   ]
 }
