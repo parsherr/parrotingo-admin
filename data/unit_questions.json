@@ -237,6 +237,18 @@
         "derive"
       ],
       "id": "9GhSIjtqUa"
+    },
+    {
+      "type": "word-meaning",
+      "word": "delay",
+      "correctTranslation": "gecikme",
+      "correctDefinition": "A period of time by which something is late or postponed; to make someone or something late.",
+      "wrongChoices": [
+        "basis",
+        "addiction",
+        "crucial"
+      ],
+      "id": "XwJcjyEyQY"
     }
   ]
 }
