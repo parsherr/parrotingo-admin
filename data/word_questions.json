@@ -1138,6 +1138,21 @@
         "appreciation"
       ],
       "id": "-W8ZwDu2u3"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "During the experiment, particles were made to [GAP1] in a controlled environment.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "collide",
+          "wrongWords": [
+            "park",
+            "aviod"
+          ]
+        }
+      ],
+      "id": "qXcasPT4pQ"
     }
   ]
 }
