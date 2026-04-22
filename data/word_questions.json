@@ -806,6 +806,18 @@
         "basis"
       ],
       "id": "B9gXvNMokN"
+    },
+    {
+      "type": "word-meaning",
+      "word": "arise",
+      "correctTranslation": "Ortaya çıkmak; meydana gelmek.",
+      "correctDefinition": "To begin to happen; to emerge.",
+      "wrongChoices": [
+        "basis",
+        "barren",
+        "delay"
+      ],
+      "id": "p1_ToxGunx"
     }
   ]
 }
