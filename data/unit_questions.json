@@ -284,6 +284,17 @@
         "barren"
       ],
       "id": "vJT-6TIQs1"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Many modern medicines that we use today actually [WORD] their active ingredients from rare plants found in nature,\nshowing how important it is to protect our forests and oceans to discover new treatments for various diseases,\nas traditional knowledge combined with modern science continues to save millions of lives around the globe.",
+      "correctWord": "derive",
+      "wrongWords": [
+        "candidate",
+        "astonishment",
+        "abundant"
+      ],
+      "id": "ZVn8sT_ZW6"
     }
   ]
 }
