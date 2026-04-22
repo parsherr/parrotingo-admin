@@ -54,6 +54,21 @@
         "abandon"
       ],
       "id": "dk5YPEzJDc"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The old bridge began to [GAP1] after the heavy flood waters weakened its ancient stone pillars,\nmaking it impossible for villagers to cross the river and reach the nearby town for supplies,\nuntil the local government decided to build a modern and much stronger structure in its place.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "collapse",
+          "wrongWords": [
+            "collide",
+            "hide"
+          ]
+        }
+      ],
+      "id": "aKVbX92Rdq"
     }
   ]
 }
