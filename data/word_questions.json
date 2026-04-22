@@ -818,6 +818,21 @@
         "delay"
       ],
       "id": "p1_ToxGunx"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "If any issues [GAP1] during the installation process, please contact technical support immediately.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "arise",
+          "wrongWords": [
+            "shine",
+            "creepy"
+          ]
+        }
+      ],
+      "id": "rFuTKtQJh-"
     }
   ]
 }
