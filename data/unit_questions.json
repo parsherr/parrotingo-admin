@@ -69,6 +69,21 @@
         }
       ],
       "id": "aKVbX92Rdq"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The new law about social media usage created a huge [GAP1] among young people and politicians,\nwith many arguing that it restricts freedom of speech while others claim it protects privacy,\nleading to endless debates on television programs and protest marches in the city center.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "controversy",
+          "wrongWords": [
+            "adversely",
+            "prehistorically"
+          ]
+        }
+      ],
+      "id": "F1xDQtJ29P"
     }
   ]
 }
