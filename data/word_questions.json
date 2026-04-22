@@ -1126,6 +1126,18 @@
         "briefly"
       ],
       "id": "QcqeZM1IMI"
+    },
+    {
+      "type": "word-meaning",
+      "word": "collide",
+      "correctTranslation": "Çarpışmak.",
+      "correctDefinition": "To crash into something or someone.",
+      "wrongChoices": [
+        "commit",
+        "destiny",
+        "appreciation"
+      ],
+      "id": "-W8ZwDu2u3"
     }
   ]
 }
