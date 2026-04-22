@@ -1446,6 +1446,21 @@
         "bearable"
       ],
       "id": "C0bAJOxaiC"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The speaker paused [GAP1] to gather his thoughts before continuing the presentation.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "briefly",
+          "wrongWords": [
+            "specially",
+            "simultaneously"
+          ]
+        }
+      ],
+      "id": "piMPMQ8snC"
     }
   ]
 }
