@@ -726,6 +726,21 @@
         "decent"
       ],
       "id": "dHyVnQunot"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Learning a new language increases your [GAP1] of different cultures and ways of thinking.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "appreciaton",
+          "wrongWords": [
+            "satisfication",
+            "understanding"
+          ]
+        }
+      ],
+      "id": "KbLOtSnkGh"
     }
   ]
 }
