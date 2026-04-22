@@ -741,6 +741,18 @@
         }
       ],
       "id": "KbLOtSnkGh"
+    },
+    {
+      "type": "word-meaning",
+      "word": "appreciation",
+      "correctTranslation": "Takdir; değerini anlama veya minnettarlık.",
+      "correctDefinition": "Recognition of value or gratitude.",
+      "wrongChoices": [
+        "collapse",
+        "adjust",
+        "barren"
+      ],
+      "id": "2l5f7tILNC"
     }
   ]
 }
