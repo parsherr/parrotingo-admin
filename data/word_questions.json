@@ -978,6 +978,21 @@
         "appreciation"
       ],
       "id": "VfY36XRaWH"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The athlete promised to [GAP1] fully to his training routine ahead of the championship.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "commit",
+          "wrongWords": [
+            "need",
+            "aim"
+          ]
+        }
+      ],
+      "id": "e3mD_BZqrJ"
     }
   ]
 }
