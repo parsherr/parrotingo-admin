@@ -1902,5 +1902,18 @@
       ],
       "id": "OpQdm0G43t"
     }
+  ],
+  "3g19bBtCV7": [
+    {
+      "type": "gap-fill",
+      "sentence": "Many modern words [WORD] from Latin or Greek origins, showing the evolution of language over centuries. Linguists study these roots to better understand how communication has developed.",
+      "correctWord": "derive",
+      "wrongWords": [
+        "commit",
+        "devote",
+        "astonishment"
+      ],
+      "id": "ovlTgJiwoE"
+    }
   ]
 }
