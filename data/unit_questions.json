@@ -588,6 +588,21 @@
         }
       ],
       "id": "DlcCZ3Q7V0"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The marathon runner was so exhausted that he could [GAP1] finish the last few meters of the long race,\nas his legs were shaking and his breathing was heavy, yet the loud cheering from the crowd gave him energy,\nallowing him to cross the finish line just a few seconds before the next competitor arrived behind him.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "barely",
+          "wrongWords": [
+            "enforce",
+            "thankfully"
+          ]
+        }
+      ],
+      "id": "BH2vdeev8p"
     }
   ]
 }
