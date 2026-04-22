@@ -1406,6 +1406,21 @@
         "desperately"
       ],
       "id": "xSiYwdJEzh"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "He felt a deep emotional [GAP1] after realizing the impact of his decision on others.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "burden",
+          "wrongWords": [
+            "hardly",
+            "chill"
+          ]
+        }
+      ],
+      "id": "VNpLc4nqz3"
     }
   ]
 }
