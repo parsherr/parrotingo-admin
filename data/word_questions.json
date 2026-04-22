@@ -513,6 +513,18 @@
         "controversy"
       ],
       "id": "3oHenVuAYM"
+    },
+    {
+      "type": "word-meaning",
+      "word": "artefact",
+      "correctTranslation": "İnsan yapımı, özellikle tarihi veya kültürel öneme sahip nesne.",
+      "correctDefinition": "An object made by humans, especially of historical or cultural interest.",
+      "wrongChoices": [
+        "crucial",
+        "demand",
+        "abandon"
+      ],
+      "id": "bhhN4qjcb9"
     }
   ]
 }
