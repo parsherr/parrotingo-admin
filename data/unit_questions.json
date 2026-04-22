@@ -306,6 +306,21 @@
         "collide"
       ],
       "id": "6lxTo2c00w"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "There is a growing [GAP1] for electric cars as people become more conscious about the effects of air pollution,\nleading major automotive companies to invest billions of dollars into developing better battery technologies,\nwhich will eventually make sustainable transportation more affordable and accessible for everyone in the world.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "demand",
+          "wrongWords": [
+            "arise",
+            "gap"
+          ]
+        }
+      ],
+      "id": "gfKB1r8u-t"
     }
   ]
 }
