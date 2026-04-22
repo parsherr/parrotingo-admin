@@ -1114,5 +1114,18 @@
       ],
       "id": "kwwzRC-GZQ"
     }
+  ],
+  "nJbB1m1r9T": [
+    {
+      "type": "gap-fill",
+      "sentence": "Two vehicles may [WORD] at high speed if drivers fail to follow traffic rules carefully.",
+      "correctWord": "collide",
+      "wrongWords": [
+        "addiction",
+        "burden",
+        "briefly"
+      ],
+      "id": "QcqeZM1IMI"
+    }
   ]
 }
