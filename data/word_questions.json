@@ -1194,5 +1194,18 @@
       ],
       "id": "iyEiwiJS4u"
     }
+  ],
+  "kyxUCC19Ib": [
+    {
+      "type": "gap-fill",
+      "sentence": "The professor gave a [WORD] overview of the topic before diving into specific case studies.",
+      "correctWord": "broad",
+      "wrongWords": [
+        "avoid",
+        "abundant",
+        "candidate"
+      ],
+      "id": "-tzfySbDu_"
+    }
   ]
 }
