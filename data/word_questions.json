@@ -846,6 +846,21 @@
         "decent"
       ],
       "id": "fxm2-rs20k"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Experts warn that smartphone [GAP1] is becoming increasingly common among teenagers worldwide.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "addiction",
+          "wrongWords": [
+            "avoid",
+            "entries"
+          ]
+        }
+      ],
+      "id": "lNSKVyhfVv"
     }
   ]
 }
