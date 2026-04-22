@@ -1929,6 +1929,18 @@
         }
       ],
       "id": "lIJHPRxwtj"
+    },
+    {
+      "type": "word-meaning",
+      "word": "derive",
+      "correctTranslation": "Bir kaynaktan elde etmek.",
+      "correctDefinition": "To get something from a source.",
+      "wrongChoices": [
+        "abandon",
+        "destiny",
+        "diverse"
+      ],
+      "id": "k5_7XaEnaG"
     }
   ]
 }
