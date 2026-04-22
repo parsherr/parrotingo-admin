@@ -1529,6 +1529,18 @@
         }
       ],
       "id": "O66Rv3NqZk"
+    },
+    {
+      "type": "word-meaning",
+      "word": "deceive",
+      "correctTranslation": "Birini bilerek yanlış bir şeye inandırmak.",
+      "correctDefinition": "To make someone believe something false on purpose.",
+      "wrongChoices": [
+        "barely",
+        "breakdown",
+        "conclusive"
+      ],
+      "id": "tCdc1vnXPs"
     }
   ]
 }
