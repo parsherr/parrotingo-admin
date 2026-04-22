@@ -1074,5 +1074,18 @@
       ],
       "id": "wy90CRbS5L"
     }
+  ],
+  "qZn0ciSden": [
+    {
+      "type": "gap-fill",
+      "sentence": "The city is [WORD] changing, with new buildings and infrastructure appearing almost every month.",
+      "correctWord": "constantly",
+      "wrongWords": [
+        "barely",
+        "devote",
+        "artefact"
+      ],
+      "id": "ymJRY-_j8c"
+    }
   ]
 }
