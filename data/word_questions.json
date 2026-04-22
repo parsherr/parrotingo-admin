@@ -458,6 +458,18 @@
         "arise"
       ],
       "id": "toGW8GwjZw"
+    },
+    {
+      "type": "word-meaning",
+      "word": "acknowledge",
+      "correctTranslation": "kabullenmek",
+      "correctDefinition": "To accept or admit the existence or truth of something.",
+      "wrongChoices": [
+        "desperately",
+        "artefact",
+        "absence"
+      ],
+      "id": "QyatOnuVSo"
     }
   ]
 }
