@@ -606,5 +606,18 @@
       ],
       "id": "bpf7vcYTi8"
     }
+  ],
+  "NUbHzo8lbw": [
+    {
+      "type": "gap-fill",
+      "sentence": "Many families choose to [WORD] a child when they are unable to have one biologically but still want to build a home full of love.",
+      "correctWord": "adopt",
+      "wrongWords": [
+        "bearable",
+        "dramatically",
+        "access"
+      ],
+      "id": "J7n1efK8-l"
+    }
   ]
 }
