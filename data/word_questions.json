@@ -686,6 +686,18 @@
         "dramatically"
       ],
       "id": "ncGP5OoTkj"
+    },
+    {
+      "type": "word-meaning",
+      "word": "access",
+      "correctTranslation": "Erişim; bir yere girme veya kullanma hakkı.",
+      "correctDefinition": "The ability or right to enter, use, or approach something.",
+      "wrongChoices": [
+        "deprivation",
+        "constantly",
+        "dramatically"
+      ],
+      "id": "3AogHfYN8x"
     }
   ]
 }
