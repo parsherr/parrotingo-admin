@@ -1782,5 +1782,18 @@
       ],
       "id": "L2_lkpCBPp"
     }
+  ],
+  "-2sfSD_Mn6": [
+    {
+      "type": "gap-fill",
+      "sentence": "There is a growing [WORD] for renewable energy sources as environmental concerns increase globally. Governments are now investing more in clean technologies to meet this rising need.",
+      "correctWord": "demand",
+      "wrongWords": [
+        "confess",
+        "controversy",
+        "decline"
+      ],
+      "id": "h206WFf9Kk"
+    }
   ]
 }
