@@ -486,5 +486,22 @@
       ],
       "id": "0FxD4c5BXm"
     }
+  ],
+  "a_a5Qo5zDx": [
+    {
+      "type": "multiple-gap",
+      "text": "The ancient [GAP1] in the museum are from the Middle East.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "artifacts",
+          "wrongWords": [
+            "extends",
+            "noises"
+          ]
+        }
+      ],
+      "id": "bvjuvbVTuC"
+    }
   ]
 }
