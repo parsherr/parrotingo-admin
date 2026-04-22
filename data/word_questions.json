@@ -767,6 +767,17 @@
         "bearable"
       ],
       "id": "cFuQxQbntK"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "She stared in complete [WORD] when she saw the final exam results displayed on the screen.",
+      "correctWord": "astonishment",
+      "wrongWords": [
+        "broad",
+        "acknowledge",
+        "candidate"
+      ],
+      "id": "AFWbPZZK92"
     }
   ]
 }
