@@ -1006,6 +1006,18 @@
         "basis"
       ],
       "id": "UlUmF9irfe"
+    },
+    {
+      "type": "word-meaning",
+      "word": "compulsory",
+      "correctTranslation": "Zorunlu; mecburi.",
+      "correctDefinition": "Required by law or a rule; mandatory.",
+      "wrongChoices": [
+        "appreciation",
+        "absence",
+        "benefit"
+      ],
+      "id": "MWlznQR075"
     }
   ]
 }
