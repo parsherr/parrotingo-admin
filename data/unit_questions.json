@@ -124,5 +124,18 @@
       ],
       "id": "Erz-IO9X0R"
     }
+  ],
+  "unit-1": [
+    {
+      "type": "gap-fill",
+      "sentence": "The rapid [WORD] of technology has changed the way we communicate with people worldwide,\nallowing us to share information and high-quality videos in just a few seconds through the internet,\nwhich was something completely unimaginable for most people only a few decades ago.",
+      "correctWord": "advance",
+      "wrongWords": [
+        "constantly",
+        "delay",
+        "controversy"
+      ],
+      "id": "x1n_6NsVVj"
+    }
   ]
 }
