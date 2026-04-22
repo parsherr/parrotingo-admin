@@ -1246,6 +1246,21 @@
         "astonishment"
       ],
       "id": "JBgE257o9x"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Scientists studied the [GAP1] landscape to understand how life survives in extreme conditions.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "barren",
+          "wrongWords": [
+            "bury",
+            "collapse"
+          ]
+        }
+      ],
+      "id": "keFYY7KasR"
     }
   ]
 }
