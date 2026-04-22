@@ -674,5 +674,18 @@
       ],
       "id": "csZdVcTmDn"
     }
+  ],
+  "OMhIj0Xr67": [
+    {
+      "type": "gap-fill",
+      "sentence": "Students must have proper login credentials to [WORD] the online learning platform and submit their assignments.",
+      "correctWord": "access",
+      "wrongWords": [
+        "abundant",
+        "arise",
+        "dramatically"
+      ],
+      "id": "ncGP5OoTkj"
+    }
   ]
 }
