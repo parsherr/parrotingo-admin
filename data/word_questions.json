@@ -1742,5 +1742,18 @@
       ],
       "id": "1zAL_1vtBB"
     }
+  ],
+  "stv98zEv9S": [
+    {
+      "type": "gap-fill",
+      "sentence": "The sudden panic caused complete [WORD] in the crowded stadium during the emergency.",
+      "correctWord": "disorder",
+      "wrongWords": [
+        "bearable",
+        "addiction",
+        "astonishment"
+      ],
+      "id": "kplZht703x"
+    }
   ]
 }
