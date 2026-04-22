@@ -1715,6 +1715,17 @@
         "deceive"
       ],
       "id": "Tjn3P-lEjC"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Modern cities are often [WORD], containing people from many different cultural and ethnic backgrounds.",
+      "correctWord": "diverse",
+      "wrongWords": [
+        "abandon",
+        "abrupt",
+        "discrimination"
+      ],
+      "id": "wYG2gtxKha"
     }
   ]
 }
