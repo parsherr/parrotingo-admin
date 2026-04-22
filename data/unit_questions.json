@@ -195,6 +195,21 @@
         }
       ],
       "id": "xwaJX5DOzy"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Experts predict that the population of some rare bird species will continue to [GAP1] over time,\nmainly because of the destruction of their natural habitats and the effects of global climate change,\nunless strict environmental laws are implemented to protect these beautiful creatures from extinction.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "decline",
+          "wrongWords": [
+            "arise",
+            "rise"
+          ]
+        }
+      ],
+      "id": "pFo27jSVTK"
     }
   ]
 }
