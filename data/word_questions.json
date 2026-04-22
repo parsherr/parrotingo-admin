@@ -418,6 +418,18 @@
         "conclusive"
       ],
       "id": "6F4OA25jsi"
+    },
+    {
+      "type": "word-meaning",
+      "word": "advance",
+      "correctTranslation": "İlerlemek",
+      "correctDefinition": "To move forward or make progress; to develop or improve something.",
+      "wrongChoices": [
+        "diverse",
+        "constantly",
+        "barely"
+      ],
+      "id": "nSXGXd1v_P"
     }
   ]
 }
