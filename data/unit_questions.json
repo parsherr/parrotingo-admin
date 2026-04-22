@@ -1,3 +1,15 @@
 {
-  "zGvs0QAlQw": []
+  "zGvs0QAlQw": [
+    {
+      "type": "gap-fill",
+      "sentence": "The heavy storm forced the sailors to [WORD] their sinking ship in the middle of the ocean,\nleaving behind all their personal belongings and precious cargo to save their lives,\nas they desperately waited for a rescue helicopter to arrive before the night fell completely.",
+      "correctWord": "abandon",
+      "wrongWords": [
+        "collide",
+        "abrupt",
+        "abundant"
+      ],
+      "id": "26a0ei22as"
+    }
+  ]
 }
