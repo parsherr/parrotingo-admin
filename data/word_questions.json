@@ -1178,6 +1178,21 @@
         "addiction"
       ],
       "id": "nfHCh1a4qL"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "A detailed [GAP1] of the data helped scientists understand the cause of the anomaly.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "breakdown",
+          "wrongWords": [
+            "addiction",
+            "confess"
+          ]
+        }
+      ],
+      "id": "iyEiwiJS4u"
     }
   ]
 }
