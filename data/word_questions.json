@@ -1422,5 +1422,18 @@
       ],
       "id": "VNpLc4nqz3"
     }
+  ],
+  "INOvZJTJyy": [
+    {
+      "type": "gap-fill",
+      "sentence": "She [WORD] explained the situation before leaving the room to attend another meeting.",
+      "correctWord": "briefly",
+      "wrongWords": [
+        "dramatically",
+        "conclusive",
+        "advance"
+      ],
+      "id": "Z7N3cYO_sH"
+    }
   ]
 }
