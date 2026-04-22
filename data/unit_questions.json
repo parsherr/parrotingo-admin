@@ -421,6 +421,17 @@
         "astonishment"
       ],
       "id": "wDcFi5JN9c"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Health experts suggest that people should [WORD] consuming too much processed sugar and salty snacks,\nas these habits are closely linked to long-term health issues such as heart disease and high blood pressure,\nand instead recommend focusing on a balanced diet rich in fresh fruits, green vegetables, and natural proteins.",
+      "correctWord": "avoid",
+      "wrongWords": [
+        "compulsory",
+        "adopt",
+        "abandon"
+      ],
+      "id": "tXehGQila0"
     }
   ]
 }
