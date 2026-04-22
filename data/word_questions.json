@@ -714,5 +714,18 @@
       ],
       "id": "viXxv2EY6l"
     }
+  ],
+  "UPGk-nWrw8": [
+    {
+      "type": "gap-fill",
+      "sentence": "The teacher expressed deep [WORD] for the students’ hard work and dedication throughout the semester.",
+      "correctWord": "appreciation",
+      "wrongWords": [
+        "barely",
+        "addiction",
+        "decent"
+      ],
+      "id": "dHyVnQunot"
+    }
   ]
 }
