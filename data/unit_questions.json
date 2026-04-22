@@ -477,6 +477,18 @@
         }
       ],
       "id": "EiF-UvWLE5"
+    },
+    {
+      "type": "word-meaning",
+      "word": "bearable",
+      "correctTranslation": "Dayanılabilir, çekilebilir",
+      "correctDefinition": "Able to be endured or tolerated; something that is not too bad or painful to handle.",
+      "wrongChoices": [
+        "controversy",
+        "diverse",
+        "discrimination"
+      ],
+      "id": "D7JYE4XiMk"
     }
   ]
 }
