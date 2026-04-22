@@ -1354,5 +1354,18 @@
       ],
       "id": "MUjN_8Sl3X"
     }
+  ],
+  "z4HwlSWr0a": [
+    {
+      "type": "gap-fill",
+      "sentence": "He could [WORD] finish the race due to exhaustion after running for several hours without rest.",
+      "correctWord": "barely",
+      "wrongWords": [
+        "decline",
+        "candidate",
+        "destiny"
+      ],
+      "id": "QQ5_A1LI1I"
+    }
   ]
 }
