@@ -111,6 +111,18 @@
         "deprivation"
       ],
       "id": "3uboOluc3N"
+    },
+    {
+      "type": "word-meaning",
+      "word": "desperately",
+      "correctTranslation": "umutsuzca",
+      "correctDefinition": "In a way that shows great need, despair, or urgency; trying very hard because a situation is almost hopeless.",
+      "wrongChoices": [
+        "candidate",
+        "decline",
+        "adopt"
+      ],
+      "id": "Erz-IO9X0R"
     }
   ]
 }
