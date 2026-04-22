@@ -1338,6 +1338,21 @@
         "abandon"
       ],
       "id": "5Hz3daSxpL"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Despite the extreme weather, the conditions became more [GAP1] once the wind started to calm.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "bearable",
+          "wrongWords": [
+            "unbearable",
+            "standing"
+          ]
+        }
+      ],
+      "id": "MUjN_8Sl3X"
     }
   ]
 }
