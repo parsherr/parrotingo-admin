@@ -273,6 +273,17 @@
         "derive"
       ],
       "id": "okByVaTT_j"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "When you move to a new country with a very different culture, it takes some time to [WORD] your daily habits,\nas you must learn a new language, understand local traditions, and get used to a different climate or lifestyle,\nbut this challenging process eventually helps you become a more open-minded and adaptable person in the long run.",
+      "correctWord": "adjust",
+      "wrongWords": [
+        "delay",
+        "candidate",
+        "barren"
+      ],
+      "id": "vJT-6TIQs1"
     }
   ]
 }
