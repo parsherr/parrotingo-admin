@@ -1486,6 +1486,21 @@
         "astonishment"
       ],
       "id": "U2L2_sIpGr"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "In many regions, food [GAP1] remains a major social issue despite economic development.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "deprivation",
+          "wrongWords": [
+            "abundant",
+            "plentiful"
+          ]
+        }
+      ],
+      "id": "Z1KQt2ZxTV"
     }
   ]
 }
