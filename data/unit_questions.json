@@ -502,5 +502,18 @@
       ],
       "id": "M7V2wdv7Nw"
     }
+  ],
+  "3GCkQUKLu0": [
+    {
+      "type": "gap-fill",
+      "sentence": "To the [WORD] of everyone in the small village, the quiet young boy won the international math competition,\ndefeating hundreds of brilliant students from much bigger cities and prestigious private schools across the country,\nand proving that with enough dedication and hard work, anyone can achieve greatness regardless of their background.",
+      "correctWord": "astonishment",
+      "wrongWords": [
+        "advance",
+        "commit",
+        "decline"
+      ],
+      "id": "HNYaOU27dk"
+    }
   ]
 }
