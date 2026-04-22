@@ -966,6 +966,18 @@
         "abundant"
       ],
       "id": "qLLTSxPfrh"
+    },
+    {
+      "type": "word-meaning",
+      "word": "commit",
+      "correctTranslation": "(Genellikle kötü bir şey) işlemek; kendini adamak.",
+      "correctDefinition": "To do something (often wrong or illegal); to dedicate oneself.",
+      "wrongChoices": [
+        "deprivation",
+        "basis",
+        "appreciation"
+      ],
+      "id": "VfY36XRaWH"
     }
   ]
 }
