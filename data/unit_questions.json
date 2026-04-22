@@ -336,6 +336,21 @@
         }
       ],
       "id": "9Jz-y5SKFD"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Learning how to manage your time effectively is [GAP1] if you want to succeed in both your academic and personal life,\nbecause it allows you to complete your tasks without feeling overwhelmed by stress or missing important deadlines,\nwhile also giving you enough free time to enjoy your favorite hobbies and spend quality moments with your friends.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "crucial",
+          "wrongWords": [
+            "inflammatory",
+            "prehistorical"
+          ]
+        }
+      ],
+      "id": "cPcDw8l2L3"
     }
   ]
 }
