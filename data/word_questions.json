@@ -618,6 +618,18 @@
         "access"
       ],
       "id": "J7n1efK8-l"
+    },
+    {
+      "type": "word-meaning",
+      "word": "adopt",
+      "correctTranslation": "Benimsemek; kullanmaya başlamak veya kabul etmek.",
+      "correctDefinition": "To take up or start to use something; to accept.",
+      "wrongChoices": [
+        "artefact",
+        "adjust",
+        "conclusive"
+      ],
+      "id": "oFn1rqtj6K"
     }
   ]
 }
