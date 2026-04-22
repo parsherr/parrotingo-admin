@@ -1809,6 +1809,18 @@
         }
       ],
       "id": "f4OMi3MU4d"
+    },
+    {
+      "type": "word-meaning",
+      "word": "demand",
+      "correctTranslation": "Güçlü ihtiyaç veya talep.",
+      "correctDefinition": "A strong need or request.",
+      "wrongChoices": [
+        "disorder",
+        "briefly",
+        "abandon"
+      ],
+      "id": "PAdaj4ESV3"
     }
   ]
 }
