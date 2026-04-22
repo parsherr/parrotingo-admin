@@ -514,6 +514,17 @@
         "decline"
       ],
       "id": "HNYaOU27dk"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "Medical professionals warn that spending too many hours on social media can lead to a serious digital [WORD],\naffecting a person's mental health and making it difficult for them to focus on real-life responsibilities and relationships,\nwhich is why it is important to set healthy boundaries and spend more time engaging in physical activities outdoors.",
+      "correctWord": "addiction",
+      "wrongWords": [
+        "abrupt",
+        "bearable",
+        "delay"
+      ],
+      "id": "PC9_EDKhS1"
     }
   ]
 }
