@@ -794,5 +794,18 @@
       ],
       "id": "1ZCQgrFOcv"
     }
+  ],
+  "LJFEii9TOf": [
+    {
+      "type": "gap-fill",
+      "sentence": "Unexpected problems may [WORD] during any project, requiring quick thinking and adaptation from the team.",
+      "correctWord": "arise",
+      "wrongWords": [
+        "collide",
+        "derive",
+        "basis"
+      ],
+      "id": "B9gXvNMokN"
+    }
   ]
 }
