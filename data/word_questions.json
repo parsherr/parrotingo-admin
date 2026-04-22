@@ -1942,5 +1942,18 @@
       ],
       "id": "k5_7XaEnaG"
     }
+  ],
+  "fu7JNOHpOC": [
+    {
+      "type": "gap-fill",
+      "sentence": "The flight was forced to [WORD] due to severe weather conditions at the departure airport, causing frustration among passengers. Airline staff provided updates while waiting for safer conditions.",
+      "correctWord": "delay",
+      "wrongWords": [
+        "confess",
+        "basis",
+        "depiction"
+      ],
+      "id": "4vMu_tyU_t"
+    }
   ]
 }
