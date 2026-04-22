@@ -1622,5 +1622,18 @@
       ],
       "id": "EKWd9uSWNT"
     }
+  ],
+  "Ob6uxlqBd8": [
+    {
+      "type": "gap-fill",
+      "sentence": "There has been a steady [WORD] in the number of students choosing science-related fields recently.",
+      "correctWord": "decline",
+      "wrongWords": [
+        "collide",
+        "abundant",
+        "discrimination"
+      ],
+      "id": "ZdtPSlqB1W"
+    }
   ]
 }
