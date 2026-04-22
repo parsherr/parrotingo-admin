@@ -603,6 +603,18 @@
         }
       ],
       "id": "BH2vdeev8p"
+    },
+    {
+      "type": "word-meaning",
+      "word": "deceive",
+      "correctTranslation": "kandırmak",
+      "correctDefinition": "To make someone believe something that is not true, usually to get an advantage; to mislead.",
+      "wrongChoices": [
+        "abundant",
+        "desperately",
+        "deprivation"
+      ],
+      "id": "CR1bSRKYnf"
     }
   ]
 }
