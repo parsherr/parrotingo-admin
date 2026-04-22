@@ -1954,6 +1954,21 @@
         "depiction"
       ],
       "id": "4vMu_tyU_t"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "A technical issue caused a long [GAP1] in the release of the software update, affecting thousands of users worldwide. The company later issued an apology and promised faster fixes in the future.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "delay",
+          "wrongWords": [
+            "decay",
+            "try"
+          ]
+        }
+      ],
+      "id": "jN9KqOdNCN"
     }
   ]
 }
