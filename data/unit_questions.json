@@ -447,6 +447,21 @@
         }
       ],
       "id": "Q8l1uz_KON"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Modern companies must have very strict rules to prevent any kind of [GAP1] based on gender or race,\nensuring that every employee has an equal opportunity to get promoted and receive a fair salary for their work,\nwhich helps build a professional environment where talent and hard work are the only things that matter.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "discrimination",
+          "wrongWords": [
+            "avoid",
+            "complete"
+          ]
+        }
+      ],
+      "id": "7jl8Ks8bz_"
     }
   ]
 }
