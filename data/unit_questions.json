@@ -180,6 +180,21 @@
         "dramatically"
       ],
       "id": "zUb-R9p8sO"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The professor spoke [GAP1] about the history of the Roman Empire before starting the main lesson,\ngiving the students a quick overview of the most important emperors and their military victories,\nso that everyone had a basic understanding of the topic before diving into the complex details.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "briefly",
+          "wrongWords": [
+            "tactfully",
+            "firmly"
+          ]
+        }
+      ],
+      "id": "xwaJX5DOzy"
     }
   ]
 }
