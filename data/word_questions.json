@@ -954,5 +954,18 @@
       ],
       "id": "LaOm0rnFd4"
     }
+  ],
+  "ySk8gpPs9N": [
+    {
+      "type": "gap-fill",
+      "sentence": "Some individuals may [WORD] serious mistakes when they act without thinking about the consequences.",
+      "correctWord": "commit",
+      "wrongWords": [
+        "abandon",
+        "deprivation",
+        "abundant"
+      ],
+      "id": "qLLTSxPfrh"
+    }
   ]
 }
