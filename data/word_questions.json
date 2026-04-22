@@ -1261,6 +1261,18 @@
         }
       ],
       "id": "keFYY7KasR"
+    },
+    {
+      "type": "word-meaning",
+      "word": "barren",
+      "correctTranslation": "Verimsiz; çorak.",
+      "correctDefinition": "Unable to produce plants or fruit; unproductive.",
+      "wrongChoices": [
+        "absence",
+        "addiction",
+        "diverse"
+      ],
+      "id": "N7dRhDkaze"
     }
   ]
 }
