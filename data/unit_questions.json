@@ -536,6 +536,17 @@
         "abandon"
       ],
       "id": "9P1DHlADex"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "In many action movies, the main villain plans to [WORD] a series of dangerous crimes to take over the city,\nbut the brave hero always manages to stop them at the very last second using his incredible skills and intelligence,\nensuring that justice is served and the innocent citizens can continue to live their lives in peace and safety.",
+      "correctWord": "commit",
+      "wrongWords": [
+        "acknowledge",
+        "derive",
+        "discrimination"
+      ],
+      "id": "Nhi4JHsC2o"
     }
   ]
 }
