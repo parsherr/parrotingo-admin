@@ -574,6 +574,18 @@
         "bearable"
       ],
       "id": "uASqQjkkU6"
+    },
+    {
+      "type": "word-meaning",
+      "word": "adjust",
+      "correctTranslation": "Bir şeyi daha uygun hale getirmek için küçük değişiklik yapmak.",
+      "correctDefinition": "To change something slightly to make it more suitable.",
+      "wrongChoices": [
+        "addiction",
+        "compulsory",
+        "controversy"
+      ],
+      "id": "n7E01rgjEa"
     }
   ]
 }
