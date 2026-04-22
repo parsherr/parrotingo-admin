@@ -549,6 +549,18 @@
         "commit"
       ],
       "id": "yq66dLsx-6"
+    },
+    {
+      "type": "word-meaning",
+      "word": "abundant",
+      "correctTranslation": "Bol miktarda bulunan; bereketli.",
+      "correctDefinition": "Existing in large quantities; plentiful.",
+      "wrongChoices": [
+        "breakdown",
+        "acknowledge",
+        "burden"
+      ],
+      "id": "xsA_wDBMC2"
     }
   ]
 }
