@@ -1754,6 +1754,18 @@
         "astonishment"
       ],
       "id": "kplZht703x"
+    },
+    {
+      "type": "word-meaning",
+      "word": "disorder",
+      "correctTranslation": "Düzensizlik veya normal işleyişi bozan durum.",
+      "correctDefinition": "Lack of order or a condition affecting normal function.",
+      "wrongChoices": [
+        "acknowledge",
+        "decent",
+        "dramatically"
+      ],
+      "id": "G42X1ei4Lb"
     }
   ]
 }
