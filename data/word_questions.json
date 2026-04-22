@@ -1662,5 +1662,18 @@
       ],
       "id": "xpVaq3n7LP"
     }
+  ],
+  "buXlAKO-2o": [
+    {
+      "type": "gap-fill",
+      "sentence": "Everyone deserves a [WORD] standard of living, including access to healthcare and education.",
+      "correctWord": "decent",
+      "wrongWords": [
+        "absence",
+        "delay",
+        "abrupt"
+      ],
+      "id": "f6bLGa4FRc"
+    }
   ]
 }
