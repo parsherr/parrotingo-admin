@@ -1674,6 +1674,21 @@
         "abrupt"
       ],
       "id": "f6bLGa4FRc"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Despite limited resources, they managed to provide [GAP1] housing for the affected families.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "decent",
+          "wrongWords": [
+            "broke",
+            "utilise"
+          ]
+        }
+      ],
+      "id": "Yd4Nw1cIAb"
     }
   ]
 }
