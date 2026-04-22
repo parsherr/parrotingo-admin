@@ -673,6 +673,18 @@
         }
       ],
       "id": "csZdVcTmDn"
+    },
+    {
+      "type": "word-meaning",
+      "word": "avoid",
+      "correctTranslation": "Kaçınmak; bir şeyi önlemek veya uzak durmak.",
+      "correctDefinition": "To keep away from or prevent something from happening.",
+      "wrongChoices": [
+        "adjust",
+        "abrupt",
+        "dramatically"
+      ],
+      "id": "et7ObiqoIu"
     }
   ],
   "OMhIj0Xr67": [
