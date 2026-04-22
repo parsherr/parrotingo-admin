@@ -430,6 +430,21 @@
         "barely"
       ],
       "id": "nSXGXd1v_P"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "These may help you [GAP1] in your career.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "advance",
+          "wrongWords": [
+            "demand",
+            "derive"
+          ]
+        }
+      ],
+      "id": "xxLp3TcboB"
     }
   ]
 }
