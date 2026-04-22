@@ -375,18 +375,6 @@
         "abrupt"
       ],
       "id": "D_Iq_eqUxV"
-    },
-    {
-      "type": "word-meaning",
-      "word": "appreciation",
-      "correctTranslation": "minnettarlik",
-      "correctDefinition": "Recognition and enjoyment of the good qualities of someone or something; a feeling of being grateful.",
-      "wrongChoices": [
-        "abandon",
-        "barely",
-        "abrupt"
-      ],
-      "id": "EIwfiC8jHH"
     }
   ]
 }
