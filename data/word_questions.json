@@ -1834,6 +1834,21 @@
         "artefact"
       ],
       "id": "hFBXT7RJQM"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Weather conditions can change [GAP1] within a very short period in mountainous regions, making travel risky. Hikers are often advised to prepare for sudden shifts in temperature and visibility.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "dramatically",
+          "wrongWords": [
+            "suddenly",
+            "briefly"
+          ]
+        }
+      ],
+      "id": "Do3Rno3T2Z"
     }
   ]
 }
