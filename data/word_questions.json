@@ -1394,5 +1394,18 @@
       ],
       "id": "BDyOEKEzEO"
     }
+  ],
+  "K83T53uvyY": [
+    {
+      "type": "gap-fill",
+      "sentence": "Financial responsibilities can become a heavy [WORD] for families with limited income sources.",
+      "correctWord": "burden",
+      "wrongWords": [
+        "disorder",
+        "devote",
+        "desperately"
+      ],
+      "id": "xSiYwdJEzh"
+    }
   ]
 }
