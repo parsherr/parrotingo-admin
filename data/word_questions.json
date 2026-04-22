@@ -1058,6 +1058,21 @@
         "controversy"
       ],
       "id": "WmveMZDLWA"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "We need [GAP1] proof to win the case.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "conclusive",
+          "wrongWords": [
+            "predominant",
+            "pleasure"
+          ]
+        }
+      ],
+      "id": "wy90CRbS5L"
     }
   ]
 }
