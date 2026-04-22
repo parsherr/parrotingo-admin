@@ -158,6 +158,17 @@
         "confess"
       ],
       "id": "Ch6NWfayCz"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The explorers struggled to find any water or food while traveling across the [WORD]  desert,\nwhere the extreme heat and lack of vegetation made every single step feel like a difficult challenge,\nand they knew they had to reach the next oasis before their limited supplies ran out.",
+      "correctWord": "barren",
+      "wrongWords": [
+        "diverse",
+        "abrupt",
+        "benefit"
+      ],
+      "id": "nlaDuAN1ww"
     }
   ]
 }
