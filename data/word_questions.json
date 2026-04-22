@@ -1914,6 +1914,21 @@
         "astonishment"
       ],
       "id": "ovlTgJiwoE"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "Scientists [GAP1] important data from long-term observations and experiments conducted in controlled environments. These findings help improve predictions and decision-making in various fields.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "derive",
+          "wrongWords": [
+            "take",
+            "place"
+          ]
+        }
+      ],
+      "id": "lIJHPRxwtj"
     }
   ]
 }
