@@ -21,6 +21,17 @@
         "basis"
       ],
       "id": "C0lWqYH04E"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "During the long [WORD] of the manager, the office became a very quiet and disorganized place,\nbecause nobody knew exactly how to handle the complex customer complaints or technical issues,\nwhich eventually led to a significant delay in the completion of the monthly financial reports.",
+      "correctWord": "absence",
+      "wrongWords": [
+        "bearable",
+        "conclusive",
+        "disorder"
+      ],
+      "id": "nbCKgjWNkS"
     }
   ]
 }
