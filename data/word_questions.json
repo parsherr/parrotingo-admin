@@ -698,6 +698,21 @@
         "dramatically"
       ],
       "id": "3AogHfYN8x"
+    },
+    {
+      "type": "multiple-gap",
+      "text": "The remote village gained better [GAP1] to healthcare services after the new road was completed.",
+      "gaps": [
+        {
+          "id": "GAP1",
+          "correctWord": "access",
+          "wrongWords": [
+            "avoid",
+            "call"
+          ]
+        }
+      ],
+      "id": "viXxv2EY6l"
     }
   ]
 }
