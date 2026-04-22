@@ -43,6 +43,17 @@
         "deceive"
       ],
       "id": "083De4hJni"
+    },
+    {
+      "type": "gap-fill",
+      "sentence": "The young [WORD] spent many hours preparing a professional resume and practicing for the interview,\nhoping to impress the hiring committee with his unique skills and previous work experiences,\nsince this job at the international company was exactly what he had dreamed of for years.",
+      "correctWord": "candidate",
+      "wrongWords": [
+        "deprivation",
+        "benefit",
+        "abandon"
+      ],
+      "id": "dk5YPEzJDc"
     }
   ]
 }
