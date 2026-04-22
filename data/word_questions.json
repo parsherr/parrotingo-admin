@@ -1326,6 +1326,18 @@
         "desperately"
       ],
       "id": "4vQujZv6EN"
+    },
+    {
+      "type": "word-meaning",
+      "word": "bearable",
+      "correctTranslation": "Katlanılabilir; dayanılabilir.",
+      "correctDefinition": "Able to be endured or tolerated.",
+      "wrongChoices": [
+        "adjust",
+        "desperately",
+        "abandon"
+      ],
+      "id": "5Hz3daSxpL"
     }
   ]
 }
